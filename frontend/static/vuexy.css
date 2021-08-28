@@ -1,0 +1,2339 @@
+/*=========================================================================================
+  File Name: main.scss
+  Description: Main scss file. Imports other scss partials from 'vuexy' folder
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+/*=========================================================================================
+    File Name: _layout.scss
+    Description: partial- main layout styles container - imports layout styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+  File Name: _layoutCommon.scss
+  Description: Common layout styles. This style will apply to all layouts
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700");
+html {
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  line-height: 1.5;
+  letter-spacing: 0.01rem; }
+
+body {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  background: #f7f7f7;
+  font-weight: 400;
+  overflow-x: hidden;
+  max-width: 100%;
+  height: 100%;
+  -webkit-transition: background-color .3s ease;
+  transition: background-color .3s ease; }
+
+#app {
+  min-height: 100%; }
+
+.vx-logo .vx-logo-text {
+  font-size: 22px;
+  font-weight: 600;
+  -webkit-animation: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s normal forwards 1 fadein;
+          animation: 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) 0s normal forwards 1 fadein; }
+
+.router-view {
+  position: relative;
+  padding: 2.2rem; }
+  @media (max-width: 576px) {
+    .router-view {
+      padding: 1.2rem 0.45rem !important; }
+      .footer-sticky .router-view {
+        padding-bottom: 5rem !important; } }
+  .router-view .content-area__heading h2 {
+    color: #636363; }
+
+.layout--main {
+  height: 100%;
+  min-height: 100vh;
+  /* background-image: url('background.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#content-overlay {
+  position: fixed;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  -webkit-transition: opacity .7s;
+  transition: opacity .7s;
+  z-index: -1; }
+  .show-overlay #content-overlay {
+    z-index: 41001;
+    opacity: 1; }
+
+.the-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+#content-area {
+  height: 100%;
+  -webkit-transition: margin-left 0.5s;
+  transition: margin-left 0.5s; }
+  #content-area .content-wrapper {
+
+    min-height: calc(var(--vh, 1vh) * 100 - 3.5rem); }
+    .navbar-static #content-area .content-wrapper {
+      min-height: calc(var(--vh, 1vh) * 100 - 8rem); }
+  #content-area.content-area-reduced {
+    margin-left: 260px; }
+  #content-area.content-area-lg {
+    margin-left: 80px; }
+  #content-area.content-area-full {
+    margin-left: 0px; }
+
+.navbar-floating .router-content {
+  margin-top: 5.5rem; }
+  @media (max-width: 576px) {
+    .navbar-floating .router-content {
+      margin-top: 6rem; } }
+
+div[id$="demo"] .vx-card:not(:last-of-type) {
+  margin-bottom: 2.2rem; }
+
+.vue-back-to-top {
+  z-index: 51000 !important; }
+
+.demo-alignment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .demo-alignment > * {
+    margin-right: 1.5rem;
+    margin-top: 1.5rem; }
+
+.op-block {
+  -webkit-box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  border-radius: 10px; }
+
+.no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 14.1rem); }
+
+/*=========================================================================================
+  File Name: _layoutVertical.scss
+  Description: Vertical Layout Styles
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+.main-vertical.navbar-sticky .router-content {
+  margin-top: 4.5rem; }
+.main-vertical.navbar-static .vx-navbar-wrapper .vx-navbar {
+  background: transparent !important;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+.main-vertical.navbar-static .router-content {
+  margin-top: 0.2rem; }
+
+.no-scroll .router-view {
+  padding-bottom: 0; }
+.no-scroll.navbar-floating .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 11.5rem); }
+.no-scroll.navbar-floating.footer-hidden .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 9.3rem); }
+.no-scroll.navbar-floating.footer-sticky .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 13.1rem); }
+.no-scroll.navbar-sticky .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 10.5rem); }
+.no-scroll.navbar-sticky.footer-hidden .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 8.3rem); }
+.no-scroll.navbar-sticky.footer-sticky .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 12.1rem); }
+.no-scroll.navbar-static.footer-static .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 9.25rem); }
+.no-scroll.navbar-static.footer-sticky .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 10.9rem); }
+.no-scroll.navbar-static.footer-hidden .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 7rem); }
+.no-scroll.navbar-hidden .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 6rem); }
+.no-scroll.navbar-hidden.footer-hidden .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 3.8rem); }
+.no-scroll.navbar-hidden.footer-sticky .no-scroll-content {
+  height: calc(var(--vh, 1vh) * 100 - 7.6rem); }
+
+/*=========================================================================================
+  File Name: _layoutHorizontal.scss
+  Description: Horizontal Layout Styles
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.main-horizontal .vx-navbar-wrapper.nav-menu-wrapper {
+  z-index: 41000; }
+.main-horizontal .vx-navbar-wrapper .vx-navbar {
+  z-index: 40001; }
+@media (min-width: 1200px) {
+  .main-horizontal .vx-navbar-wrapper .search-full-container .vx-auto-suggest .auto-suggest-suggestions-list {
+    width: calc(100% - 2rem) !important;
+    margin-left: 1rem; } }
+.main-horizontal.navbar-floating .vs-navbar.vx-navbar {
+  padding-left: 1.25rem !important;
+  padding-right: 1.25rem !important; }
+.main-horizontal.navbar-sticky .router-content {
+  margin-top: 4.5rem; }
+  @media (min-width: 1200px) {
+    .main-horizontal.navbar-sticky .router-content {
+      margin-top: 8.89rem; } }
+.main-horizontal.navbar-sticky .vx-navbar-wrapper:not(.nav-menu-wrapper) {
+  height: 62px; }
+.main-horizontal.navbar-sticky .vs-navbar:not(.vx-navbar) {
+  background-color: #f7f7f7 !important; }
+.main-horizontal.navbar-sticky .vs-navbar.vx-navbar, .main-horizontal.navbar-static .vs-navbar.vx-navbar {
+  -webkit-box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.03); }
+@media (min-width: 1200px) {
+  .main-horizontal.navbar-static .router-content {
+    margin-top: 1rem; } }
+.main-horizontal.navbar-static #content-area .content-wrapper {
+  min-height: calc(var(--vh, 1vh) * 100 - 8rem - 62px); }
+@media (min-width: 1200px) {
+  .main-horizontal.navbar-static .vx-navbar-wrapper:not(.nav-menu-wrapper) {
+    position: fixed; } }
+@media (max-width: 1199px) {
+  .main-horizontal.navbar-static .vx-navbar-wrapper .vx-navbar {
+    background: transparent !important;
+    -webkit-box-shadow: none;
+            box-shadow: none; } }
+@media (max-width: 1199px) {
+  .main-horizontal.navbar-hidden .vx-navbar-wrapper {
+    display: none; } }
+.main-horizontal.navbar-hidden .vx-navbar-wrapper {
+  position: fixed; }
+  .main-horizontal.navbar-hidden .vx-navbar-wrapper.nav-menu-wrapper {
+    display: none; }
+@media (min-width: 1200px) {
+  .main-horizontal.navbar-hidden .router-view {
+    margin-top: 4.5rem; } }
+.main-horizontal:not(.navbar-static) .vx-navbar-wrapper.nav-menu-wrapper {
+  top: 62px; }
+@media (min-width: 1200px) {
+  .main-horizontal {
+    /*
+      Only applies to NavMenu in horizontal layout
+      media query is given -> because navMenu in horizontal will be visible till 1200px.
+    */ }
+    .main-horizontal.navbar-floating .router-content {
+      margin-top: 10.1rem; }
+    .main-horizontal .vs-navbar.vx-navbar {
+      padding-top: 0 !important;
+      padding-bottom: 0 !important; } }
+@media (min-width: 1200px) {
+  .main-horizontal.no-scroll .router-view {
+    padding-bottom: 0; }
+  .main-horizontal.no-scroll.navbar-floating .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 16rem); }
+  .main-horizontal.no-scroll.navbar-floating.footer-hidden .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 13.4rem); }
+  .main-horizontal.no-scroll.navbar-floating.footer-sticky .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 16.7rem); }
+  .main-horizontal.no-scroll.navbar-sticky .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 14.7rem); }
+  .main-horizontal.no-scroll.navbar-sticky.footer-hidden .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 12.7rem); }
+  .main-horizontal.no-scroll.navbar-sticky.footer-sticky .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 16.2rem); }
+  .main-horizontal.no-scroll.navbar-static.footer-static .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 14.75rem); }
+  .main-horizontal.no-scroll.navbar-static.footer-sticky .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 16.7rem); }
+  .main-horizontal.no-scroll.navbar-static.footer-hidden .no-scroll-content {
+    height: calc(var(--vh, 1vh) * 100 - 13rem); } }
+
+/*=========================================================================================
+  File Name: _theNavbar.scss
+  Description: The navbar styles
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.vs-navbar.navbar-skelton {
+  padding: .8rem 2.2rem;
+  width: 100%;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  z-index: 10000; }
+
+.navbar-sticky .vx-navbar-wrapper,
+.navbar-floating .vx-navbar-wrapper {
+  position: fixed; }
+
+.vx-navbar-wrapper {
+  background-repeat-x: repeat;
+  z-index: 41001;
+  width: 100%;
+  height: 103px;
+  background-repeat-y: no-repeat;
+  top: 0; }
+  .vx-navbar-wrapper .vx-navbar .vs-con-items {
+    width: 100%; }
+    .vx-navbar-wrapper .vx-navbar .vs-con-items .search-full-container {
+      background: #fff; }
+    .vx-navbar-wrapper .vx-navbar .vs-con-items .vx-auto-suggest {
+      color: #626262; }
+
+@media (min-width: 1201px) {
+  .main-vertical .vx-navbar-wrapper {
+    width: calc(100% - 260px); } }
+.content-area-lg .vx-navbar-wrapper {
+  width: calc(100% - 80px); }
+
+.show-overlay .vx-navbar-wrapper {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(44%, rgba(44, 48, 60, 0.9)), color-stop(73%, rgba(44, 48, 60, 0.43)), to(rgba(44, 48, 60, 0)));
+  background: linear-gradient(to bottom, rgba(44, 48, 60, 0.9) 44%, rgba(44, 48, 60, 0.43) 73%, rgba(44, 48, 60, 0) 100%); }
+
+@media (min-width: 577px) {
+  .navbar-floating .vx-navbar-wrapper {
+    padding: 1.3rem 2.2rem 2.2rem; } }
+.navbar-floating .vx-navbar {
+  border-radius: .5rem;
+  padding: .8rem 1rem; }
+  .navbar-floating .vx-navbar .search-full-container {
+    border-radius: .5rem; }
+
+.navbar-sticky .vx-navbar-wrapper {
+  background: none; }
+.navbar-sticky .content-area-lg .vx-navbar-wrapper .vx-navbar {
+  width: 100%; }
+
+.navbar-static .vx-navbar-wrapper .vx-navbar .vx-auto-suggest .auto-suggest-suggestions-list,
+.navbar-sticky .vx-navbar-wrapper .vx-navbar .vx-auto-suggest .auto-suggest-suggestions-list {
+  width: calc(100% - 2rem) !important;
+  margin-left: 1rem; }
+
+.main-vertical.navbar-static .vx-navbar-wrapper .vx-navbar {
+  z-index: 41001; }
+
+.navbar-static .vx-navbar-wrapper {
+  background: none;
+  height: auto;
+  width: 100%; }
+  .navbar-static .vx-navbar-wrapper .vx-navbar {
+    position: relative; }
+.navbar-static .router-view {
+  padding-top: 1rem; }
+
+.navbar-hidden.main-vertical .vx-navbar-wrapper {
+  display: none; }
+
+.search-full-container {
+  z-index: 50000; }
+  .search-full-container .vx-auto-suggest > div {
+    height: 100%; }
+  .search-full-container .vx-auto-suggest input[type="text"],
+  .search-full-container .vx-auto-suggest .input-span-placeholder {
+    padding: 1.6rem 3rem !important; }
+  .search-full-container .vx-auto-suggest .vs-input--icon.feather {
+    top: 32% !important;
+    left: 0.8rem; }
+  .search-full-container > div.feather-icon {
+    position: absolute !important; }
+
+.bookmark-dropdown {
+  z-index: 41002; }
+
+.navbar-custom .vs-navbar--btn-responsive {
+  display: none !important; }
+.navbar-custom .vs-spacer {
+  display: block !important; }
+.navbar-custom .vs-con-items {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  width: 100%; }
+
+@media (max-width: 1200px) {
+  .navbar-sticky .vx-navbar-wrapper .vx-navbar {
+    padding: .8rem 2.2rem; } }
+@media (max-width: 576px) {
+  .vx-navbar-wrapper {
+    padding: 1.2rem 0.45rem; }
+
+  .navbar-sticky .vx-navbar-wrapper {
+    padding: 0; }
+    .navbar-sticky .vx-navbar-wrapper .vx-navbar {
+      padding: .8rem 1.5rem; }
+
+  .navbar-static .vx-navbar-wrapper {
+    padding: 0; }
+    .navbar-static .vx-navbar-wrapper .vx-navbar {
+      padding: .8rem 1.5rem; }
+  .navbar-static.main-vertical .router-view .router-content {
+    margin-top: 0; } }
+.starred-page:hover,
+.starred-page--more:hover {
+  color: #7367f0; }
+
+.i18n-dropdown .vs-dropdown--item-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+@media screen and (max-width: 364px) {
+  .i18n-dropdown {
+    width: 95vw;
+    left: 90vw !important; }
+    .i18n-dropdown .vs-dropdown--menu--after {
+      display: none; } }
+
+.cart-dropdown {
+  width: 365px; }
+  .cart-dropdown .cart-dropdown-item-img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    -webkit-transition: .35s;
+    transition: .35s; }
+
+.notification-dropdown,
+.cart-dropdown {
+  width: 365px; }
+  @media screen and (max-width: 500px) {
+    .notification-dropdown,
+    .cart-dropdown {
+      width: 95vw;
+      left: 97.5vw !important; }
+      .notification-dropdown .vs-dropdown--menu--after,
+      .cart-dropdown .vs-dropdown--menu--after {
+        display: none; } }
+  .notification-dropdown .notification:hover,
+  .cart-dropdown .notification:hover {
+    background-color: #f7f7f7; }
+  .notification-dropdown .checkout-footer,
+  .notification-dropdown .notification-footer,
+  .cart-dropdown .checkout-footer,
+  .cart-dropdown .notification-footer {
+    background-color: #f8f8f8; }
+
+.scroll-area--nofications-dropdown,
+.scroll-area--cart-items-dropdowm {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-height: 25rem; }
+
+@media screen and (max-height: 334px) {
+  .vx-navbar-dropdown {
+    top: calc(var(--vh, 1vh) * 100 - 82.5vh) !important; }
+    .vx-navbar-dropdown .vs-dropdown--menu--after {
+      display: none; } }
+
+/*=========================================================================================
+    File Name: _footer.scss
+    Description: Footer styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.footer-sticky .the-footer {
+  position: fixed;
+  background: #fff;
+  bottom: 0;
+  width: calc(100% - 260px);
+  -webkit-box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.05);
+          box-shadow: 0 -4px 20px 0 rgba(0, 0, 0, 0.05);
+  z-index: 40000; }
+.footer-sticky .content-area-lg .the-footer {
+  width: calc(100% - 80px); }
+.footer-sticky .content-area-full .the-footer {
+  width: 100%; }
+.footer-sticky .router-view {
+  padding-bottom: 5rem; }
+
+.footer-hidden .the-footer {
+  display: none; }
+
+.the-footer {
+  padding: 1rem 2.2rem; }
+
+/*=========================================================================================
+  File Name: _typography.scss
+  Description: partial- typography styles
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+body {
+  color: #626262 !important;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500 !important;
+  line-height: 1.2 !important;
+  color: #2c2c2c !important; }
+
+h1, .h1 {
+  font-size: 28px !important; }
+
+h2, .h2 {
+  font-size: 24.36px !important; }
+
+h3, .h3 {
+  font-size: 21.14px !important; }
+
+h4, .h4 {
+  font-size: 18.48px !important; }
+
+h5, .h5 {
+  font-size: 15.96px !important; }
+
+h6, .h6 {
+  font-size: 14px !important; }
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.video_content p {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+.vs-tooltip h4 {
+  color: #fff; }
+
+a:active,
+a:visited,
+a:hover,
+a {
+  color: #7367f0; }
+
+u {
+  text-decoration: underline; }
+
+/*=========================================================================================
+    File Name: _misc.scss
+    Description: partial- misc styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+code {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  background: #eee;
+  padding: 0.1rem .3rem;
+  border-radius: 3px; }
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+
+.layout--full-page .bg-img {
+  /*background-image: url("../images/pages/vuexy-login-bg.jpg");*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.layout--full-page .full-page-bg-color {
+  background-color: #eff2f7; }
+
+.single-counter {
+  display: inline-block;
+  position: relative;
+  width: 105px;
+  padding: 18px 10px 10px; }
+  .single-counter span {
+    display: block;
+    text-align: center; }
+  .single-counter .timer {
+    font-size: 3rem; }
+
+.chat-card-log {
+  height: 240px; }
+
+.vjs-poster {
+  background-size: cover !important;
+  width: 100% !important; }
+
+/*! rtl:begin:ignore */
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+/*! rtl:end:ignore */
+i.feather {
+  font-weight: 100; }
+
+.feather.feather-menu {
+  z-index: 9; }
+
+.scroll-area {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 100%; }
+
+/*=========================================================================================
+  File Name: _extraComponents.scss
+  Description: partial - imports extra components styles
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+  File Name: _awesomeSwiper.scss
+  Description: Styles for awesome swiper plugin
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.swiper-pagination-bullet-active {
+  background: #7367f0 !important; }
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background: #7367f0 !important; }
+
+/*=========================================================================================
+  File Name: _formWizard.scss
+  Description: Styles for form wizard externsion.
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.vue-form-wizard.md .wizard-navigation .wizard-progress-with-circle {
+  top: 33px !important; }
+.vue-form-wizard.md .wizard-navigation .wizard-nav .wizard-icon-circle {
+  border: 3px solid #cccccc;
+  width: 55px;
+  height: 55px; }
+  .vue-form-wizard.md .wizard-navigation .wizard-nav .wizard-icon-circle .wizard-icon {
+    font-size: 1.5rem; }
+.vue-form-wizard.md .wizard-navigation .wizard-nav .stepTitle {
+  color: #626262; }
+
+i.wizard-icon {
+  font-style: inherit; }
+
+.stepTitle {
+  margin-top: .5rem; }
+
+.select-large input.vs-select--input {
+  padding: 11px; }
+
+/*=========================================================================================
+    File Name: _vueSelect.scss
+    Description: vue-select component style.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+.v-select:not(.vs--single) .vs__selected {
+  font-size: .9rem; }
+.v-select .vs__dropdown-toggle {
+  padding: .59px 0 4px 0; }
+  .v-select .vs__dropdown-toggle .vs__search {
+    color: #626262; }
+  .v-select .vs__dropdown-toggle .vs__deselect svg {
+    stroke: #626262;
+    opacity: 0.5;
+    margin-top: 0 !important; }
+  .v-select .vs__dropdown-toggle .vs__actions .vs__clear {
+    color: #626262; }
+.v-select .vs__dropdown-menu .vs__dropdown-option--highlight {
+  color: #fff !important; }
+.v-select .vs__dropdown-menu .vs__dropdown-option {
+  color: #626262; }
+.v-select .vs__selected {
+  color: #626262; }
+
+.theme-dark .v-select .vs__dropdown-toggle {
+  background: #262c49; }
+  .theme-dark .v-select .vs__dropdown-toggle .vs__clear svg {
+    stroke: #b8c2cc; }
+  .theme-dark .v-select .vs__dropdown-toggle .vs__deselect svg {
+    stroke: #b8c2cc;
+    opacity: 0.7; }
+.theme-dark .v-select:not(.vs--single) .vs__selected {
+  background: #10163a;
+  border: none; }
+.theme-dark .v-select .vs__selected {
+  color: #fff; }
+.theme-dark .v-select .vs__open-indicator {
+  fill: #b8c2cc; }
+.theme-dark .v-select .vs__dropdown-menu {
+  background: #262c49; }
+  .theme-dark .v-select .vs__dropdown-menu .vs__dropdown-option {
+    color: #c2c6dc; }
+
+.v-select {
+  position: relative;
+  font-family: inherit; }
+
+.v-select,
+.v-select * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+/* KeyFrames */
+@-webkit-keyframes vSelectSpinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+@keyframes vSelectSpinner {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+/* Dropdown Default Transition */
+.vs__fade-enter-active,
+.vs__fade-leave-active {
+  pointer-events: none;
+  -webkit-transition: opacity 0.15s cubic-bezier(1, 0.5, 0.8, 1);
+  transition: opacity 0.15s cubic-bezier(1, 0.5, 0.8, 1); }
+
+.vs__fade-enter,
+.vs__fade-leave-to {
+  opacity: 0; }
+
+/** Component States */
+/*
+ * Disabled
+ *
+ * When the component is disabled, all interaction
+ * should be prevented. Here we modify the bg color,
+ * and change the cursor displayed on the interactive
+ * components.
+ */
+.vs--disabled .vs__dropdown-toggle,
+.vs--disabled .vs__clear,
+.vs--disabled .vs__search,
+.vs--disabled .vs__selected,
+.vs--disabled .vs__open-indicator {
+  cursor: not-allowed;
+  background-color: #f8f8f8; }
+
+/*
+ *  RTL - Right to Left Support
+ *
+ *  Because we're using a flexbox layout, the `dir="rtl"`
+ *  HTML attribute does most of the work for us by
+ *  rearranging the child elements visually.
+ */
+.v-select[dir="rtl"] .vs__actions {
+  padding: 0 3px 0 6px; }
+.v-select[dir="rtl"] .vs__clear {
+  margin-left: 6px;
+  margin-right: 0; }
+.v-select[dir="rtl"] .vs__deselect {
+  margin-left: 0;
+  margin-right: 2px; }
+.v-select[dir="rtl"] .vs__dropdown-menu {
+  text-align: right; }
+
+/**
+    Dropdown Toggle
+
+    The dropdown toggle is the primary wrapper of the component. It
+    has two direct descendants: .vs__selected-options, and .vs__actions.
+
+    .vs__selected-options holds the .vs__selected's as well as the
+    main search input.
+
+    .vs__actions holds the clear button and dropdown toggle.
+ */
+.vs__dropdown-toggle {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 0 4px 0;
+  background: none;
+  border: 1px solid rgba(60, 60, 60, 0.26);
+  border-radius: 4px;
+  white-space: normal; }
+
+.vs__selected-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 2px;
+  position: relative; }
+
+.vs__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px 6px 0 3px; }
+
+/* Dropdown Toggle States */
+.vs--searchable .vs__dropdown-toggle {
+  cursor: text; }
+
+.vs--unsearchable .vs__dropdown-toggle {
+  cursor: pointer; }
+
+.vs--open .vs__dropdown-toggle {
+  border-bottom-color: transparent;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0; }
+
+.vs__open-indicator {
+  fill: rgba(60, 60, 60, 0.5);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 150ms cubic-bezier(1, -0.115, 0.975, 0.855);
+  transition: -webkit-transform 150ms cubic-bezier(1, -0.115, 0.975, 0.855);
+  transition: transform 150ms cubic-bezier(1, -0.115, 0.975, 0.855);
+  transition: transform 150ms cubic-bezier(1, -0.115, 0.975, 0.855), -webkit-transform 150ms cubic-bezier(1, -0.115, 0.975, 0.855);
+  -webkit-transition-timing-function: cubic-bezier(1, -0.115, 0.975, 0.855);
+          transition-timing-function: cubic-bezier(1, -0.115, 0.975, 0.855); }
+
+.vs--open .vs__open-indicator {
+  -webkit-transform: rotate(180deg) scale(1);
+          transform: rotate(180deg) scale(1); }
+
+.vs--loading .vs__open-indicator {
+  opacity: 0; }
+
+/* Clear Button */
+.vs__clear {
+  fill: rgba(60, 60, 60, 0.5);
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 8px; }
+
+/* Dropdown Menu */
+.vs__dropdown-menu {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: absolute;
+  top: calc(100% - 1px);
+  left: 0;
+  z-index: 1000;
+  padding: 5px 0;
+  margin: 0;
+  width: 100%;
+  max-height: 350px;
+  min-width: 160px;
+  overflow-y: auto;
+  -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(60, 60, 60, 0.26);
+  border-top-style: none;
+  border-radius: 0 0 4px 4px;
+  text-align: left;
+  list-style: none;
+  background: #fff; }
+
+.vs__no-options {
+  text-align: center; }
+
+/* List Items */
+.vs__dropdown-option {
+  line-height: 1.42857143;
+  /* Normalize line height */
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  color: #333;
+  /* Overrides most CSS frameworks */
+  white-space: nowrap; }
+  .vs__dropdown-option:hover {
+    cursor: pointer; }
+
+.vs__dropdown-option--highlight {
+  background: #7367F0;
+  color: #fff; }
+
+.vs__dropdown-option--disabled {
+  background: inherit;
+  color: rgba(60, 60, 60, 0.5); }
+  .vs__dropdown-option--disabled:hover {
+    cursor: inherit; }
+
+/* Selected Tags */
+.vs__selected {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f0f0f0;
+  border: 1px solid rgba(60, 60, 60, 0.26);
+  border-radius: 4px;
+  color: #333;
+  line-height: 1.8;
+  margin: 4px 2px 0px 2px;
+  padding: 0 0.25em; }
+
+.vs__deselect {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin-left: 4px;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  background: none;
+  fill: rgba(60, 60, 60, 0.5);
+  text-shadow: 0 1px 0 #fff; }
+
+/* States */
+.vs--single .vs__selected {
+  background-color: transparent;
+  border-color: transparent; }
+.vs--single.vs--open .vs__selected {
+  position: absolute;
+  opacity: .4; }
+.vs--single.vs--searching .vs__selected {
+  display: none; }
+
+/* Search Input */
+/**
+ * Super weird bug... If this declaration is grouped
+ * below, the cancel button will still appear in chrome.
+ * If it's up here on it's own, it'll hide it.
+ */
+.vs__search::-webkit-search-cancel-button {
+  display: none; }
+
+.vs__search::-webkit-search-decoration,
+.vs__search::-webkit-search-results-button,
+.vs__search::-webkit-search-results-decoration,
+.vs__search::-ms-clear {
+  display: none; }
+
+.vs__search,
+.vs__search:focus {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  line-height: 1.8;
+  font-size: 1em;
+  border: 1px solid transparent;
+  border-left: none;
+  outline: none;
+  margin: 4px 0 0 0;
+  padding: 0 7px;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  width: 0;
+  max-width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1; }
+
+.vs__search::-webkit-input-placeholder {
+  color: inherit; }
+
+.vs__search:-ms-input-placeholder {
+  color: inherit; }
+
+.vs__search::-ms-input-placeholder {
+  color: inherit; }
+
+.vs__search::placeholder {
+  color: inherit; }
+
+/**
+    States
+ */
+.vs--unsearchable .vs__search {
+  opacity: 1; }
+  .vs--unsearchable .vs__search:hover {
+    cursor: pointer; }
+
+.vs--single.vs--searching:not(.vs--open):not(.vs--loading) .vs__search {
+  opacity: .2; }
+
+/* Loading Spinner */
+.vs__spinner {
+  -ms-flex-item-align: center;
+      align-self: center;
+  opacity: 0;
+  font-size: 5px;
+  text-indent: -9999em;
+  overflow: hidden;
+  border-top: 0.9em solid rgba(100, 100, 100, 0.1);
+  border-right: 0.9em solid rgba(100, 100, 100, 0.1);
+  border-bottom: 0.9em solid rgba(100, 100, 100, 0.1);
+  border-left: 0.9em solid rgba(60, 60, 60, 0.45);
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+  -webkit-animation: vSelectSpinner 1.1s infinite linear;
+          animation: vSelectSpinner 1.1s infinite linear;
+  -webkit-transition: opacity .1s;
+  transition: opacity .1s; }
+
+.vs__spinner,
+.vs__spinner:after {
+  border-radius: 50%;
+  width: 5em;
+  height: 5em; }
+
+/* Loading Spinner States */
+.vs--loading .vs__spinner {
+  opacity: 1; }
+
+/*=========================================================================================
+    File Name: _charts.scss
+    Description: Styles for charts.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.echarts {
+  width: 100% !important; }
+
+/*=========================================================================================
+    File Name: _contextMenu.scss
+    Description: Styles for context menu
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+.v-context {
+  padding: 0 !important;
+  border-radius: .4rem !important;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14) !important;
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14) !important;
+  z-index: 51000 !important; }
+  .v-context li a {
+    color: inherit !important;
+    padding: .7rem 1rem !important; }
+    .v-context li a:focus, .v-context li a:hover {
+      background: #eee !important; }
+
+.theme-dark .v-context {
+  background: #262c49 !important; }
+  .theme-dark .v-context li a {
+    color: #c2c6dc !important; }
+    .theme-dark .v-context li a:focus, .theme-dark .v-context li a:hover {
+      background: #10163a !important; }
+
+/*=========================================================================================
+    File Name: _quillEditor.scss
+    Description: Styles for quill editor externsion.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+.quill-editor .ql-bubble .ql-tooltip {
+  z-index: 51000; }
+
+.theme-dark .quill-editor .ql-snow.ql-toolbar, .theme-dark .quill-editor .ql-snow.ql-container {
+  border-color: #414561; }
+
+/*=========================================================================================
+    File Name: _datePicker.scss
+    Description: Styles for datepicker component.
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+.vdp-datepicker input {
+  padding: .7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #626262;
+  width: 100%; }
+.vdp-datepicker input[disabled] {
+  opacity: .5; }
+.vdp-datepicker .vdp-datepicker__calendar {
+  border-radius: .5rem;
+  z-index: 401; }
+  .vdp-datepicker .vdp-datepicker__calendar header .pre {
+    border-top-left-radius: .5rem; }
+  .vdp-datepicker .vdp-datepicker__calendar header .next {
+    border-top-right-radius: .5rem; }
+.vdp-datepicker .day.blank {
+  background: transparent; }
+.vdp-datepicker .cell.day {
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 37px;
+  line-height: 37px;
+  width: 12.285714286%; }
+.vdp-datepicker .cell.month, .vdp-datepicker .cell.year {
+  border-radius: .5rem; }
+.vdp-datepicker .cell:hover {
+  border-color: rgba(0, 0, 0, 0) !important;
+  background-color: #eee; }
+.vdp-datepicker .cell.day.highlighted {
+  background: rgba(115, 103, 240, 0.7);
+  color: #fff; }
+  .vdp-datepicker .cell.day.highlighted:hover {
+    background: #7367f0; }
+.vdp-datepicker .cell.selected {
+  color: #fff;
+  background: #7367f0 !important; }
+  .vdp-datepicker .cell.selected:hover {
+    background: #7367f0; }
+
+/*=========================================================================================
+    File Name: _datetimePicker.scss
+    Description: Styles for datetime picker
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*========================================================
+        SPACING
+=========================================================*/
+/*========================================================
+        COLORS
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+/*========================================================
+        DARK THEME
+=========================================================*/
+.flatpickr-calendar {
+  width: calc(307.875px + 13px * 2) !important;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08) !important;
+          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08) !important;
+  border-radius: .5rem !important;
+  overflow: hidden; }
+  .flatpickr-calendar.arrowTop:after, .flatpickr-calendar.arrowTop:before {
+    display: none; }
+  .flatpickr-calendar.arrowBottom:after, .flatpickr-calendar.arrowBottom:before {
+    display: none; }
+  .flatpickr-calendar .numInputWrapper {
+    width: 5.5ch !important; }
+    .flatpickr-calendar .numInputWrapper .numInput.cur-year {
+      font-weight: 600 !important;
+      color: #626262; }
+    .flatpickr-calendar .numInputWrapper:hover {
+      background: none; }
+      .flatpickr-calendar .numInputWrapper:hover .arrowUp,
+      .flatpickr-calendar .numInputWrapper:hover .arrowDown {
+        border: none; }
+  .flatpickr-calendar .flatpickr-months,
+  .flatpickr-calendar .flatpickr-month {
+    height: 44px !important; }
+  .flatpickr-calendar .flatpickr-months {
+    padding: 0; }
+  .flatpickr-calendar .flatpickr-monthDropdown-months {
+    color: #626262;
+    border: 1px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: .5rem !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    height: 27px;
+    margin-left: 22px !important;
+    margin-right: 3px !important; }
+    .flatpickr-calendar .flatpickr-monthDropdown-months:hover {
+      background: transparent !important; }
+  .flatpickr-calendar .flatpickr-current-month {
+    bottom: -11px;
+    padding-top: 0; }
+    .flatpickr-calendar .flatpickr-current-month .numInputWrapper {
+      vertical-align: middle; }
+  .flatpickr-calendar .flatpickr-prev-month,
+  .flatpickr-calendar .flatpickr-next-month,
+  .flatpickr-calendar .flatpickr-innerContainer {
+    padding: 13px !important; }
+  .flatpickr-calendar .flatpickr-prev-month,
+  .flatpickr-calendar .flatpickr-next-month {
+    top: calc(13px - 3px) !important; }
+  .flatpickr-calendar .flatpickr-prev-month {
+    left: 13px !important; }
+  .flatpickr-calendar .flatpickr-next-month {
+    right: 13px !important; }
+  .flatpickr-calendar.inline {
+    display: block !important; }
+  .flatpickr-calendar .flatpickr-day.selected, .flatpickr-calendar .flatpickr-day.startRange, .flatpickr-calendar .flatpickr-day.endRange, .flatpickr-calendar .flatpickr-day.selected.inRange, .flatpickr-calendar .flatpickr-day.startRange.inRange, .flatpickr-calendar .flatpickr-day.endRange.inRange, .flatpickr-calendar .flatpickr-day.selected:focus, .flatpickr-calendar .flatpickr-day.startRange:focus, .flatpickr-calendar .flatpickr-day.endRange:focus, .flatpickr-calendar .flatpickr-day.selected:hover, .flatpickr-calendar .flatpickr-day.startRange:hover, .flatpickr-calendar .flatpickr-day.endRange:hover, .flatpickr-calendar .flatpickr-day.selected.prevMonthDay, .flatpickr-calendar .flatpickr-day.startRange.prevMonthDay, .flatpickr-calendar .flatpickr-day.endRange.prevMonthDay, .flatpickr-calendar .flatpickr-day.selected.nextMonthDay, .flatpickr-calendar .flatpickr-day.startRange.nextMonthDay, .flatpickr-calendar .flatpickr-day.endRange.nextMonthDay {
+    background: #7367F0 !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    border-color: #7367F0 !important; }
+
+.flatpickr-input {
+  padding: .7rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: #626262; }
+  .flatpickr-input.active {
+    border: 1px solid #7367F0; }
+
+.flatpickr-months .flatpickr-prev-month:hover svg,
+.flatpickr-months .flatpickr-next-month:hover svg {
+  fill: #7367F0 !important; }
+
+.theme-dark .flatpickr-calendar {
+  background: #10163a;
+  border: 1px solid #414561; }
+  .theme-dark .flatpickr-calendar .flatpickr-month,
+  .theme-dark .flatpickr-calendar .flatpickr-weekday {
+    color: #fff; }
+  .theme-dark .flatpickr-calendar .flatpickr-prev-month svg,
+  .theme-dark .flatpickr-calendar .flatpickr-next-month svg {
+    fill: #fff; }
+  .theme-dark .flatpickr-calendar .flatpickr-monthDropdown-months {
+    background: #262c49 !important; }
+    .theme-dark .flatpickr-calendar .flatpickr-monthDropdown-months option {
+      background: #10163a !important;
+      color: #c2c6dc; }
+  .theme-dark .flatpickr-calendar .flatpickr-day {
+    color: #c2c6dc; }
+    .theme-dark .flatpickr-calendar .flatpickr-day.inRange, .theme-dark .flatpickr-calendar .flatpickr-day.prevMonthDay.inRange, .theme-dark .flatpickr-calendar .flatpickr-day.nextMonthDay.inRange, .theme-dark .flatpickr-calendar .flatpickr-day.today.inRange, .theme-dark .flatpickr-calendar .flatpickr-day.prevMonthDay.today.inRange, .theme-dark .flatpickr-calendar .flatpickr-day.nextMonthDay.today.inRange, .theme-dark .flatpickr-calendar .flatpickr-day:hover, .theme-dark .flatpickr-calendar .flatpickr-day.prevMonthDay:hover, .theme-dark .flatpickr-calendar .flatpickr-day.nextMonthDay:hover, .theme-dark .flatpickr-calendar .flatpickr-day:focus, .theme-dark .flatpickr-calendar .flatpickr-day.prevMonthDay:focus, .theme-dark .flatpickr-calendar .flatpickr-day.nextMonthDay:focus {
+      background: #262c49;
+      border-color: #262c49; }
+    .theme-dark .flatpickr-calendar .flatpickr-day.today {
+      border-color: #959ea9; }
+    .theme-dark .flatpickr-calendar .flatpickr-day.selected {
+      color: #fff; }
+    .theme-dark .flatpickr-calendar .flatpickr-day.today:hover, .theme-dark .flatpickr-calendar .flatpickr-day.today:focus {
+      background: #262c49;
+      color: #fff; }
+    .theme-dark .flatpickr-calendar .flatpickr-day.prevMonthDay, .theme-dark .flatpickr-calendar .flatpickr-day.nextMonthDay, .theme-dark .flatpickr-calendar .flatpickr-day.disabled {
+      opacity: .3; }
+  .theme-dark .flatpickr-calendar .flatpickr-time {
+    border-top-color: #414561 !important; }
+    .theme-dark .flatpickr-calendar .flatpickr-time input {
+      color: #c2c6dc; }
+    .theme-dark .flatpickr-calendar .flatpickr-time input:hover,
+    .theme-dark .flatpickr-calendar .flatpickr-time .flatpickr-am-pm:hover,
+    .theme-dark .flatpickr-calendar .flatpickr-time input:focus,
+    .theme-dark .flatpickr-calendar .flatpickr-time .flatpickr-am-pm:focus {
+      background: #262c49; }
+    .theme-dark .flatpickr-calendar .flatpickr-time .flatpickr-am-pm {
+      color: #c2c6dc; }
+    .theme-dark .flatpickr-calendar .flatpickr-time ::-moz-selection {
+      background: transparent; }
+    .theme-dark .flatpickr-calendar .flatpickr-time ::selection {
+      background: transparent; }
+  .theme-dark .flatpickr-calendar .numInputWrapper .arrowUp:after {
+    border-bottom-color: #fff; }
+  .theme-dark .flatpickr-calendar .numInputWrapper .arrowDown:after {
+    border-top-color: #fff; }
+
+/*=========================================================================================
+    File Name: _transitions.scss
+    Description: Transition styles
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.zoom-fade-enter-active,
+.zoom-fade-leave-active {
+  -webkit-transition: opacity .28s ease-in-out, -webkit-transform .35s;
+  transition: opacity .28s ease-in-out, -webkit-transform .35s;
+  transition: transform .35s, opacity .28s ease-in-out;
+  transition: transform .35s, opacity .28s ease-in-out, -webkit-transform .35s; }
+
+.zoom-fade-enter {
+  -webkit-transform: scale(0.97);
+          transform: scale(0.97);
+  opacity: 0; }
+
+.zoom-fade-leave-to {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+  opacity: 0; }
+
+.fade-enter-active,
+.fade-leave-active {
+  -webkit-transition: opacity .28s ease-in-out;
+  transition: opacity .28s ease-in-out; }
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0; }
+
+.slide-fade-enter-active, .slide-fade-leave-active {
+  -webkit-transition: opacity .35s, -webkit-transform .4s;
+  transition: opacity .35s, -webkit-transform .4s;
+  transition: opacity .35s, transform .4s;
+  transition: opacity .35s, transform .4s, -webkit-transform .4s; }
+
+.slide-fade-enter {
+  opacity: 0;
+  -webkit-transform: translateX(-30%);
+          transform: translateX(-30%); }
+
+.slide-fade-leave-to {
+  opacity: 0;
+  -webkit-transform: translateX(30%);
+          transform: translateX(30%); }
+
+.zoom-out-enter-active, .zoom-out-leave-active {
+  -webkit-transition: opacity .35s ease-in-out, -webkit-transform .45s ease-out;
+  transition: opacity .35s ease-in-out, -webkit-transform .45s ease-out;
+  transition: opacity .35s ease-in-out, transform .45s ease-out;
+  transition: opacity .35s ease-in-out, transform .45s ease-out, -webkit-transform .45s ease-out; }
+
+.zoom-out-enter, .zoom-out-leave-to {
+  opacity: 0;
+  -webkit-transform: scale(0);
+          transform: scale(0); }
+
+.fade-bottom-enter-active, .fade-bottom-leave-active {
+  -webkit-transition: opacity .3s, -webkit-transform .35s;
+  transition: opacity .3s, -webkit-transform .35s;
+  transition: opacity .3s, transform .35s;
+  transition: opacity .3s, transform .35s, -webkit-transform .35s; }
+
+.fade-bottom-enter {
+  opacity: 0;
+  -webkit-transform: translateY(-8%);
+          transform: translateY(-8%); }
+
+.fade-bottom-leave-to {
+  opacity: 0;
+  -webkit-transform: translateY(8%);
+          transform: translateY(8%); }
+
+.fade-bottom-2x-enter-active, .fade-bottom-2x-leave-active {
+  -webkit-transition: opacity .2s, -webkit-transform .25s;
+  transition: opacity .2s, -webkit-transform .25s;
+  transition: opacity .2s, transform .25s;
+  transition: opacity .2s, transform .25s, -webkit-transform .25s; }
+
+.fade-bottom-2x-enter {
+  opacity: 0;
+  -webkit-transform: translateY(-4%);
+          transform: translateY(-4%); }
+
+.fade-bottom-2x-leave-to {
+  opacity: 0;
+  -webkit-transform: translateY(4%);
+          transform: translateY(4%); }
+
+.fade-top-enter-active, .fade-top-leave-active {
+  -webkit-transition: opacity .3s, -webkit-transform .35s;
+  transition: opacity .3s, -webkit-transform .35s;
+  transition: opacity .3s, transform .35s;
+  transition: opacity .3s, transform .35s, -webkit-transform .35s; }
+
+.fade-top-enter {
+  opacity: 0;
+  -webkit-transform: translateY(8%);
+          transform: translateY(8%); }
+
+.fade-top-leave-to {
+  opacity: 0;
+  -webkit-transform: translateY(-8%);
+          transform: translateY(-8%); }
+
+.fade-top-2x-enter-active, .fade-top-2x-leave-active {
+  -webkit-transition: opacity .2s, -webkit-transform .25s;
+  transition: opacity .2s, -webkit-transform .25s;
+  transition: opacity .2s, transform .25s;
+  transition: opacity .2s, transform .25s, -webkit-transform .25s; }
+
+.fade-top-2x-enter {
+  opacity: 0;
+  -webkit-transform: translateY(4%);
+          transform: translateY(4%); }
+
+.fade-top-2x-leave-to {
+  opacity: 0;
+  -webkit-transform: translateY(-4%);
+          transform: translateY(-4%); }
+
+.list-leave-active {
+  position: absolute; }
+
+.list-enter,
+.list-leave-to {
+  opacity: 0;
+  -webkit-transform: translateX(30px);
+          transform: translateX(30px); }
+
+.list-enter-up-leave-active {
+  -webkit-transition: none !important;
+  transition: none !important; }
+
+.list-enter-up-enter {
+  opacity: 0;
+  -webkit-transform: translateY(30px);
+          transform: translateY(30px); }
+
+/*=========================================================================================
+  File Name: _customClasses.scss
+  Description: partial- this file containes custom helper classes
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.btn-group button {
+  padding: 1rem 1.25rem !important; }
+.btn-group :not(:last-child) {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0; }
+.btn-group :not(:first-child) {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0; }
+
+.btn-group-vertical {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .btn-group-vertical button {
+    padding: 1rem 1.25rem !important;
+    width: 100%; }
+  .btn-group-vertical :not(:first-child) {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0; }
+  .btn-group-vertical :not(:last-child) {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; }
+
+.blur-1 {
+  -webkit-filter: blur(1px);
+          filter: blur(1px); }
+
+.blur-2 {
+  -webkit-filter: blur(2px);
+          filter: blur(2px); }
+
+.blur-3 {
+  -webkit-filter: blur(3px);
+          filter: blur(3px); }
+
+.con-vs-chip.number {
+  padding-right: unset;
+  min-height: 20px;
+  min-width: 20px;
+  margin-right: 0; }
+  .con-vs-chip.number .vs-chip--text {
+    margin-left: unset;
+    margin-right: unset;
+    font-weight: 600; }
+
+.text-primary {
+  color: rgb(44, 44, 44) !important; }
+
+.text-success {
+  color: #28c76f !important; }
+
+.text-danger {
+  color: #ea5455 !important; }
+
+.text-warning {
+  color: #ff9f43 !important; }
+
+.text-dark {
+  color: #1e1e1e !important; }
+
+.bg-primary {
+  background-color: #7367f0 !important; }
+
+.bg-success {
+  background-color: #28c76f !important; }
+
+.bg-danger {
+  background-color: #ea5455 !important; }
+
+.bg-warning {
+  background-color: #ff9f43 !important; }
+
+.bg-dark {
+  background-color: #1e1e1e !important; }
+
+.border-primary {
+  border-color: #7367f0 !important; }
+
+.border-success {
+  border-color: #28c76f !important; }
+
+.border-danger {
+  border-color: #ea5455 !important; }
+
+.border-warning {
+  border-color: #ff9f43 !important; }
+
+.border-dark {
+  border-color: #1e1e1e !important; }
+
+.hover\:bg-primary:hover {
+  background-color: #7367f0 !important; }
+
+.hover\:bg-success:hover {
+  background-color: #28c76f !important; }
+
+.hover\:bg-danger:hover {
+  background-color: #ea5455 !important; }
+
+.hover\:bg-warning:hover {
+  background-color: #ff9f43 !important; }
+
+.hover\:bg-dark:hover {
+  background-color: #1e1e1e !important; }
+
+.hover\:text-primary:hover {
+  color: #7367f0 !important; }
+
+.hover\:text-success:hover {
+  color: #28c76f !important; }
+
+.hover\:text-danger:hover {
+  color: #ea5455 !important; }
+
+.hover\:text-warning:hover {
+  color: #ff9f43 !important; }
+
+.hover\:text-dark:hover {
+  color: #1e1e1e !important; }
+
+.bg-primary-gradient {
+  background: linear-gradient(118deg, #7367f0, rgba(115, 103, 240, 0.7)) !important; }
+
+.bg-success-gradient {
+  background: linear-gradient(118deg, #28c76f, rgba(40, 199, 111, 0.7)) !important; }
+
+.bg-danger-gradient {
+  background: linear-gradient(118deg, #ea5455, rgba(234, 84, 85, 0.7)) !important; }
+
+.bg-warning-gradient {
+  background: linear-gradient(118deg, #ff9f43, rgba(255, 159, 67, 0.7)) !important; }
+
+.bg-dark-gradient {
+  background: linear-gradient(118deg, #1e1e1e, rgba(30, 30, 30, 0.7)) !important; }
+
+.dropdown-custom .vs-dropdown--custom {
+  padding: 0 !important;
+  border: 0;
+  overflow: hidden;
+  border-radius: .5rem;
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08) !important;
+          box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.11), 0 5px 15px 0 rgba(0, 0, 0, 0.08) !important; }
+.dropdown-custom .vs-dropdown--menu--after {
+  background: #7367f0 !important;
+  right: 1.6rem !important; }
+
+.vx-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 -1rem; }
+  .vx-row > .vx-col {
+    padding: 0 1rem; }
+  .vx-row.match-height > .vx-col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+  .vx-row.no-gutter {
+    margin: 0; }
+    .vx-row.no-gutter > .vx-col {
+      padding: 0; }
+
+.vs-input-no-border .vs-input--input {
+  border: none !important; }
+  .vs-input-no-border .vs-input--input:focus {
+    border: none !important; }
+
+.vs-input-no-shdow-focus .vs-input--input:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important; }
+
+.vs-input-shadow-drop input {
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14);
+          box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.14); }
+
+.sidebar-spacer {
+  width: calc(100% - 260px);
+  margin-left: 260px; }
+
+.sidebar-spacer-with-margin {
+  width: calc(100% - 260px - 2.2rem);
+  margin-left: calc(260px + 2.2rem); }
+
+.sidebar-spacer--wide {
+  width: calc(100% - 400px);
+  margin-left: 400px; }
+
+.background-absolute .vs-sidebar--background {
+  position: absolute; }
+
+.vs-content-sidebar.items-no-padding .vs-sidebar--items {
+  padding: 0; }
+
+.full-vs-sidebar .vs-sidebar {
+  max-width: calc(100% - 260px);
+  margin-left: 260px; }
+
+@media only screen and (max-width: 992px) {
+  .full-vs-sidebar .vs-sidebar {
+    max-width: 100%;
+    margin-left: 0; } }
+.vs-select-no-border .vs-select--input {
+  border: none !important; }
+
+.tabs-shadow-none .vs-tabs--ul {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
+
+.tab-action-btn-fill-conatiner.con-vs-tabs .vs-tabs--content {
+  padding: 23px 10px !important; }
+
+.d-theme-dark-bg,
+.d-theme-dark-light-bg {
+  background-color: #fff; }
+
+.d-theme-dark-border {
+  border-color: #fff; }
+
+.d-theme-border-grey-light {
+  border-color: #dae1e7; }
+
+.d-theme-text-inverse {
+  color: #fff; }
+
+.theme-dark .d-theme-dark-bg {
+  background-color: #10163a; }
+.theme-dark .d-theme-dark-light-bg {
+  background-color: #262c49; }
+.theme-dark .d-theme-input-dark-bg input {
+  background-color: #10163a; }
+.theme-dark .d-theme-heading-color {
+  color: #2c2c2c; }
+.theme-dark .d-theme-text-inverse {
+  color: #626262; }
+.theme-dark .d-theme-border-grey-light,
+.theme-dark .d-theme-dark-border {
+  border-color: #414561; }
+.theme-dark .vs-con-table.table-dark-inverted .vs-con-tbody .vs-table--tbody-table tr {
+  background: #10163a !important; }
+
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.text-big {
+  font-size: 4rem; }
+
+.text-color-base {
+  color: #626262; }
+
+.user-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .user-list .con-vs-avatar {
+    -webkit-transition: .3s;
+    transition: .3s; }
+    .user-list .con-vs-avatar:hover {
+      -webkit-transform: translateY(-5px) scale(1.07);
+              transform: translateY(-5px) scale(1.07);
+      -webkit-box-shadow: 0 14px 24px rgba(62, 57, 107, 0.2);
+              box-shadow: 0 14px 24px rgba(62, 57, 107, 0.2);
+      z-index: 999; }
+
+.responsive {
+  width: 100%;
+  height: auto; }
+
+ul.bordered-items > li:not(:last-of-type):not([class*='shadow']) {
+  border-bottom: 1px solid #dae1e7; }
+
+/*=========================================================================================
+  File Name: _fixesVuesax.scss
+  Description: Partial - Fixes/Add vuesax framework styles
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+  Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+.con-vs-alert {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important; }
+
+.vs-alert {
+  font-size: 1rem;
+  font-weight: 500; }
+  .vs-alert code {
+    background: #b5b5b5;
+    color: #fff; }
+
+.vs-alert--title {
+  color: inherit; }
+
+.vs-avatar--text.feather {
+  font-size: 1.3rem; }
+
+.vs-avatar--con-img img {
+  height: 100%; }
+
+.vs-button {
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  font-size: 1rem; }
+  .vs-button.vs-button-gradient:hover {
+    -webkit-box-shadow: none !important;
+            box-shadow: none !important; }
+  .vs-button:not(.vs-radius):not(.includeIconOnly):not(.small):not(.large) {
+    padding: .75rem 2rem; }
+    .vs-button:not(.vs-radius):not(.includeIconOnly):not(.small):not(.large).vs-button-border {
+      padding: .679rem 2rem; }
+  .vs-button.small:not(.includeIconOnly) {
+    padding: 0.5rem 1.5rem; }
+  .vs-button.large:not(.includeIconOnly) {
+    padding: 1rem 2.5rem; }
+  .vs-button.large {
+    font-size: 1.25rem; }
+    .vs-button.large .vs-button--icon {
+      font-size: 1.25rem; }
+  .vs-button.round {
+    border-radius: 1.5rem; }
+
+.vs-breadcrumb--ol a:focus, .vs-breadcrumb--ol a:hover {
+  color: #7367F0; }
+.vs-breadcrumb--ol .active {
+  color: #7367F0; }
+
+.vs-checkbox-small .vs-checkbox--input:checked + .vs-checkbox .vs-icon {
+  margin-top: 6px;
+  margin-left: -1px;
+  -webkit-transform: translateY(-3px);
+          transform: translateY(-3px); }
+
+.vs-checkbox--check {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.con-chips .con-chips--input {
+  border: none; }
+.con-chips .con-vs-chip {
+  margin: .75rem; }
+.con-chips .con-chips--remove-all {
+  right: 9px; }
+  .con-chips .con-chips--remove-all > .vs-icon {
+    font-size: 1.3rem; }
+
+.con-vs-chip {
+  min-height: 26px;
+  min-width: 26px;
+  font-size: .8rem; }
+
+.vs-collapse-item--header {
+  font-size: 1.2rem;
+  padding: 0; }
+
+.con-content--item {
+  font-size: 1rem;
+  padding: 1rem; }
+
+.vs-collapse.default .open-item .con-content--item,
+.vs-collapse.shadow .open-item .con-content--item,
+.vs-collapse.border .open-item .con-content--item,
+.vs-collapse.margin .open-item .con-content--item {
+  opacity: 1;
+  padding: 1rem; }
+
+.con-vs-dialog {
+  z-index: 52005; }
+  .con-vs-dialog .vs-dialog header .dialog-title {
+    padding: 0.8rem;
+    color: inherit; }
+  .con-vs-dialog .vs-dialog header span.after {
+    width: 0; }
+  .con-vs-dialog .vs-dialog .vs-dialog-text {
+    padding: 1rem;
+    font-size: 1rem; }
+  .con-vs-dialog .vs-dialog footer {
+    padding: 1rem; }
+    .con-vs-dialog .vs-dialog footer .vs-button:last-of-type {
+      margin-left: .5rem !important;
+      border-color: rgba(0, 0, 0, 0.2) !important; }
+
+.vs-con-dropdown {
+  color: inherit;
+  font-size: 1rem; }
+
+.dropdown-button-container .vs-button {
+  padding: .72rem 1.5rem !important; }
+.dropdown-button-container .vs-button-line {
+  padding: 9px 10px !important; }
+
+.con-vs-dropdown--menu {
+  z-index: 42000; }
+
+.vs-input--placeholder {
+  top: 0px; }
+
+.vs-input--input.hasIcon:not(.icon-after-input) + .vs-input--placeholder {
+  padding-left: 3rem !important; }
+
+.vs-con-input .vs-inputx {
+  padding: .7rem;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+.vs-con-input .vx-inputx:not(.input-rounded-full) {
+  border-radius: 5px; }
+
+.vs-input--input.normal {
+  padding: .7rem !important;
+  font-size: 1rem !important; }
+  .vs-input--input.normal ~ .vs-input--icon.feather {
+    top: 9px; }
+.vs-input--input.large {
+  padding: 1rem !important;
+  font-size: 1.2rem !important; }
+  .vs-input--input.large.hasIcon {
+    padding: 1rem 0.8rem 1rem 3rem !important; }
+  .vs-input--input.large ~ .vs-input--icon {
+    top: 1rem !important;
+    left: 0.8rem !important; }
+.vs-input--input.small {
+  padding: .4rem !important;
+  font-size: .8rem !important; }
+  .vs-input--input.small ~ .vs-input--icon.feather {
+    top: 7px !important; }
+.vs-input--input.hasIcon {
+  padding: 0.7rem 1rem 0.7rem 3rem !important; }
+  .vs-input--input.hasIcon.icon-after-input {
+    padding: 0.7rem 3rem 0.7rem 0.7rem !important; }
+
+.vs-input--placeholder.normal {
+  padding: .7rem !important; }
+.vs-input--placeholder.large {
+  padding: 1rem !important; }
+.vs-input--placeholder.small {
+  padding: .2rem .6rem !important;
+  font-size: .8rem !important; }
+
+.vs-input--icon.feather {
+  padding: .2rem .5rem 0rem .4rem; }
+
+.vs-input.input-rounded-full input {
+  border-radius: 20px; }
+.vs-input.input-rounded-full .vs-input--input.hasIcon {
+  padding: .8rem 1rem 0.8rem 3rem !important; }
+.vs-input.input-rounded-full .input-span-placeholder {
+  padding-left: 3rem !important;
+  padding-top: .7rem !important; }
+.vs-input.input-rounded-full .vs-icon {
+  margin-top: .1rem !important;
+  margin-left: 0.6rem !important;
+  font-size: 1rem !important; }
+
+.vs-list--item .list-titles .vs-list--subtitle {
+  font-size: .85rem; }
+.vs-list--item:last-child {
+  border-bottom: none; }
+
+.vs-navbar .vs-navbar--item a {
+  color: inherit; }
+.vs-navbar-color-transparent .vs-navbar--item a:hover {
+  color: #7367F0 !important; }
+.vs-navbar-gradient .vs-navbar--item.is-active-item a {
+  color: #fff !important; }
+
+.vs-notifications {
+  z-index: 200000 !important; }
+  .vs-notifications h3 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15.96px; }
+
+.vs-pagination--li.is-current {
+  border-radius: 50%; }
+  .vs-pagination--li.is-current .effect {
+    border-radius: 50%; }
+
+.vs-pagination--li:hover:not(.is-current) {
+  color: var(--vs-color-pagination) !important; }
+
+.vs-pagination--ul {
+  padding: 0; }
+
+.vs-popup--title h3,
+.vs-notifications h3 {
+  margin-bottom: 0; }
+
+.con-vs-popup {
+  z-index: 53000; }
+  .con-vs-popup .vs-popup--content {
+    padding: 1rem;
+    font-size: 1rem; }
+
+.con-vs-checkbox,
+.con-vs-radio {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important; }
+
+.vs-radio--label {
+  line-height: 1; }
+
+.con-vs-radio {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+.con-select .vs-select--input {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.2); }
+
+.vs-select--options {
+  font-size: 1rem;
+  border: 1px solid #eee;
+  z-index: 530001; }
+  .vs-select--options span {
+    color: #626262;
+    font-size: 1rem; }
+
+.v-select .dropdown-toggle .vs__actions .clear {
+  padding-top: 4px; }
+
+.vs-sidebar {
+  height: calc(var(--vh, 1vh) * 100); }
+  .vs-sidebar .vs-sidebar--items {
+    overflow: hidden;
+    height: 100%; }
+
+.vs-switch--text {
+  font-size: 0.7rem; }
+
+.vs-con-table {
+  background: transparent; }
+  .vs-con-table .vs-table--header .vs-table--search {
+    padding: 1rem 0; }
+    .vs-con-table .vs-table--header .vs-table--search .vs-table--search-input {
+      padding: 10px 28px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      font-size: 0.9rem; }
+    .vs-con-table .vs-table--header .vs-table--search .vs-table--search-input:focus + i {
+      left: 10px; }
+    .vs-con-table .vs-table--header .vs-table--search i {
+      left: 10px; }
+  .vs-con-table .vs-con-tbody {
+    background: #f8f8f8;
+    border: 2px solid #f8f8f8;
+    width: 100%;
+    overflow: auto; }
+    .vs-con-table .vs-con-tbody .con-vs-checkbox {
+      -webkit-box-pack: center !important;
+          -ms-flex-pack: center !important;
+              justify-content: center !important; }
+    .vs-con-table .vs-con-tbody .vs-table--tbody-table {
+      font-size: 1rem; }
+      .vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-spacer {
+        height: 2px; }
+      .vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table .tr-expand td {
+        padding: 0; }
+      .vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-table td {
+        padding: 1rem; }
+      .vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead th {
+        padding: 10px 15px; }
+      .vs-con-table .vs-con-tbody .vs-table--tbody-table .vs-table--thead .con-td-check {
+        background: transparent;
+        -webkit-box-shadow: none;
+                box-shadow: none; }
+      .vs-con-table .vs-con-tbody .vs-table--tbody-table .tr-values .vs-table--td {
+        padding: 10px 15px; }
+  .vs-con-table .vs-table--pagination {
+    margin-top: 1rem; }
+
+.con-slot-tabs {
+  width: 100%; }
+
+.vs-tabs--li {
+  white-space: nowrap; }
+  .vs-tabs--li button {
+    font-size: 1rem;
+    font-weight: 500; }
+  .vs-tabs-position-left .vs-tabs--li {
+    padding: .35rem 0.3rem; }
+
+.vs-tabs--li button {
+  font-family: inherit;
+  color: inherit; }
+.vs-tabs--li .vs-icon-primary,
+.vs-tabs--li .vs-icon-success,
+.vs-tabs--li .vs-icon-warning,
+.vs-tabs--li .vs-icon-danger,
+.vs-tabs--li .vs-icon-dark {
+  color: inherit; }
+
+.vs-tabs .con-tab .vs-button-filled:hover {
+  color: #fff !important; }
+
+.vs-textarea {
+  font-size: 1rem;
+  color: inherit;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
+  line-height: 1.6; }
+
+.vs-con-textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2) !important; }
+  .vs-con-textarea > h4 {
+    color: inherit; }
+
+.vs-tooltip {
+  z-index: 52000; }
+
+.con-img-upload {
+  overflow: hidden;
+  padding: 0.6rem; }
+  .con-img-upload .img-upload {
+    margin: 15px; }
+
+.view-upload {
+  z-index: 52000; }
+
+/*=========================================================================================
+    File Name: _tailwindFixes.scss
+    Description: partial- Tailwind Fixes
+    ----------------------------------------------------------------------------------------
+    Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+      Author: Pixinvent
+    Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+button:focus {
+  outline: none; }
+
+/*=========================================================================================
+  File Name: _rtl.scss
+  Description: partial- rtl - imports rtl styles
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*=========================================================================================
+  File Name: _rtlFixes.scss
+  Description: partial - rtl fix - fixes rtl specific issues
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*! rtl:begin:ignore */
+.vuesax-app-is-rtl .ps-container:not(.enable-rtl-x-scroll) .ps__scrollbar-x-rail {
+  display: none !important; }
+.vuesax-app-is-rtl .ag-pinned-left-cols-container {
+  margin-right: 5px; }
+.vuesax-app-is-rtl .vs-dropdown-menu.rightx .vs-dropdown--menu--after {
+  right: unset !important;
+  left: 30px !important; }
+.vuesax-app-is-rtl .vs-loading > * {
+  top: 0; }
+.vuesax-app-is-rtl .flatpickr-prev-month,
+.vuesax-app-is-rtl .flatpickr-next-month {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg); }
+.vuesax-app-is-rtl .swiper-container-cube.swiper-container-rtl .swiper-slide {
+  -webkit-transform-origin: 100% 0 !important;
+          transform-origin: 100% 0 !important; }
+
+/*! rtl:end:ignore */
+/*=========================================================================================
+  File Name: _rtlOverrides.scss
+  Description: partial - rtl fix - fixes styles overridden by rtl
+  ----------------------------------------------------------------------------------------
+  Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+    Author: Pixinvent
+  Author URL: http://www.themeforest.net/user/pixinvent
+==========================================================================================*/
+/*! rtl:begin:ignore */
+.v-step[x-placement^=bottom] .v-step__arrow {
+  border-left-color: transparent !important;
+  border-right-color: transparent !important; }
+.v-step[x-placement^=left] .v-step__arrow {
+  border-bottom-color: transparent !important;
+  border-right-color: transparent !important;
+  border-top-color: transparent !important; }
+.v-step[x-placement^=top] .v-step__arrow {
+  border-bottom-color: transparent !important;
+  border-right-color: transparent !important;
+  border-left-color: transparent !important; }
+.v-step[x-placement^=right] .v-step__arrow {
+  border-bottom-color: transparent !important;
+  border-top-color: transparent !important;
+  border-left-color: transparent !important; }
+
+.swiper-container-rtl .swiper-button-prev {
+  right: 10px !important;
+  left: auto !important; }
+.swiper-container-rtl .swiper-button-next {
+  left: 10px !important;
+  right: auto !important; }
+
+
+/*! rtl:end:ignore */
+.legal_links {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255,255,255,1);
+}
+
+.legal_links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.legal_links ul li {
+  margin: 0 10px;
+  padding: 0;
+  display: block;
+  float: left;
+}
+
+.legal_links ul li a {
+  color: black;
+  font-size: 10px;
+}
