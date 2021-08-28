@@ -25,7 +25,7 @@
         <p class="main-text">
           {{ spell.effect }}
         </p>
-        <p class="cachet"><img src="https://i.postimg.cc/4NBYNqCR/22.png" /></p>
+        
         <div class="signature my-3">
           {{ spell.system }}<br />
           {{ spell.book }}
