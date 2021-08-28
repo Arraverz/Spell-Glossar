@@ -26,7 +26,7 @@
           {{ spell.effect }}
         </p>
         
-        <div class="signature my-3">
+        <div class="signature mt-3 mb-1">
           {{ spell.system }}<br />
           {{ spell.book }}
         </div>
