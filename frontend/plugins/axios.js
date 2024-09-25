@@ -21,7 +21,7 @@ export default function({ $axios, app, redirect }) {
 
         return app.$auth.logout()
       }
-
+      console.log(error);
       return Promise.reject(error)
     }
   )

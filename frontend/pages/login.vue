@@ -1,50 +1,57 @@
 <template>
-  <div
-    id="page-login"
-    class="h-screen flex w-full bg-img vx-row no-gutter items-center justify-center"
-  >
+  <div id="page-login" class="grid place-items-center h-screen">
     <div
-      class="vx-col sm:w-11/12 md:w-8/12 lg:w-2/4 xl:w-4/12 xxl:w-3/12 sm:m-0 m-4"
+      class="
+        vx-col
+        sm:w-11/12
+        md:w-8/12
+        lg:w-2/4
+        xl:w-4/12
+        xxl:w-3/12
+        sm:m-0
+        m-4
+      "
     >
-      <vx-card>
-        <div slot="no-body" class="full-page-bg-color">
-          <div class="vx-row no-gutter justify-center items-center">
-            <div class="vx-col w-full d-theme-dark-bg">
-              <div class="p-8 login-tabs-container">
-                <div class="vx-card__title mb-4"></div>
-                <h4 class="mb-4">Login</h4>
-                <p>Willkommen! Melde dich mit deinem Benutzer an.</p>
+      <vs-card>
+        <div slot="header">
+          <h3>Login</h3>
+        </div>
+        <div>
+          <vs-input
+            v-model="username"
+            name="username"
+            icon-no-border
+            icon="icon icon-user"
+            icon-pack="feather"
+            label-placeholder="Benutzername"
+            class="w-full"
+            @keyup.enter="login"
+          />
 
-                <div>
-                  <vs-input
-                    v-model="username"
-                    name="username"
-                    icon-no-border
-                    icon="icon icon-user"
-                    icon-pack="feather"
-                    label-placeholder="Benutzername"
-                    class="w-full"
-                    @keyup.enter="login"
-                  />
-
-                  <vs-input
-                    v-model="password"
-                    type="password"
-                    name="password"
-                    icon-no-border
-                    icon="icon icon-lock"
-                    icon-pack="feather"
-                    label-placeholder="Passwort"
-                    class="w-full mt-6 mb-6"
-                    @keyup.enter="login"
-                  />
-                  <vs-button color="#df0f20" @click="login">Anmelden</vs-button>
-                </div>
-              </div>
-            </div>
+          <vs-input
+            v-model="password"
+            type="password"
+            name="password"
+            icon-no-border
+            icon="icon icon-lock"
+            icon-pack="feather"
+            label-placeholder="Passwort"
+            class="w-full mt-6 mb-6"
+            @keyup.enter="login"
+          />
+          <vs-button
+            class="w-full"
+            type="gradient"
+            color="primary"
+            @click="login"
+            >Login</vs-button
+          >
+          <div class="mt-3">
+            Don't have an account?
+            <nuxt-link to="register" class="link"> Sign up</nuxt-link>
           </div>
         </div>
-      </vx-card>
+      </vs-card>
     </div>
   </div>
 </template>
@@ -58,7 +65,7 @@ export default {
     return {
       username: '',
       password: '',
-      logging_in: false
+      logging_in: false,
     }
   },
   mounted() {},
@@ -76,8 +83,8 @@ export default {
         .loginWith('local', {
           data: {
             username: this.username,
-            password: this.password
-          }
+            password: this.password,
+          },
         })
         .catch((err) => {
           this.$vs.notify({
@@ -85,16 +92,18 @@ export default {
             text:
               'Es ist ein Fehler beim Login aufgetreten: ' +
               err.request.responseText,
-            color: 'danger'
+            color: 'danger',
           })
         })
       this.logging_in = false
       if (this.$auth.$state.loggedIn) {
         this.$router.replace({ name: 'index' })
       }
-    }
-  }
+    },
+  },
 }
 </script>
 
-<style lang="scss"></style>
+<style lang="scss">
+
+</style>

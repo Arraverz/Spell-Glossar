@@ -8,7 +8,7 @@ export default {
    */
   debug: true,
   server: {
-    port: 8000, // default: 3000
+    port: 3000, // default: 3000
     host: '0.0.0.0' // default: localhost
   },
   head: {
@@ -30,7 +30,7 @@ export default {
           'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
       },
       { rel: 'stylesheet', href: '/vuesax.css' },
-      { rel: 'stylesheet', href: '/vuexy.css' },
+      // { rel: 'stylesheet', href: '/vuexy.css' },
       { rel: 'stylesheet', href: '/metro-icons.css' }
     ]
   },
@@ -43,7 +43,9 @@ export default {
    */
   css: [
     '@fortawesome/fontawesome-svg-core/styles.css',
-    '@/assets/scss/parchment.scss'
+    // '@/assets/scss/parchment.scss',
+    '@/assets/scss/main.scss',
+    '@/assets/scss/glossar.scss'
   ],
   /*
    ** Plugins to load before mounting the App

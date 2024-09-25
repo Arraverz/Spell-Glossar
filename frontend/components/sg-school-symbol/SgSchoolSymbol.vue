@@ -27,32 +27,32 @@ export default {
     src() {
       switch (this.school.toLowerCase()) {
         case 'abjuration':
-          return 'school-symbols/abjuration.png'
+          return '/school-symbols/abjuration.png'
           break
         case 'conjuration':
-          return 'school-symbols/conjuration.png'
+          return '/school-symbols/conjuration.png'
           break
         case 'divination':
-          return 'school-symbols/divination.png'
+          return '/school-symbols/divination.png'
           break
         case 'enchantment':
-          return 'school-symbols/enchantment.png'
+          return '/school-symbols/enchantment.png'
           break
         case 'evocation':
-          return 'school-symbols/evocation.png'
+          return '/school-symbols/evocation.png'
           break
         case 'illusion':
-          return 'school-symbols/illusion.png'
+          return '/school-symbols/illusion.png'
           break
         case 'necromancy':
-          return 'school-symbols/necromancy.png'
+          return '/school-symbols/necromancy.png'
           break
         case 'transmutation':
-          return 'school-symbols/transmutation.png'
+          return '/school-symbols/transmutation.png'
           break
 
         default:
-          return 'school-symbols/default.png'
+          return '/school-symbols/default.png'
           break
       }
     },

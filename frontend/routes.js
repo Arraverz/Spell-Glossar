@@ -1,17 +1,24 @@
 const routes = [
   {
     url: '/',
-    name: 'Home',
-    slug: 'home',
-    icon: 'HomeIcon',
+    name: 'All',
+    slug: 'all',
+    icon: '',
     iconPack: 'feather-icons',
     meta: {
-      permissions: ['home'],
-      modules: ['*'],
-      pageTitle: 'Home'
     },
     submenu: []
-  }
+  },
+  {
+    url: '/test',
+    name: 'Test',
+    slug: 'test',
+    icon: '',
+    iconPack: 'feather-icons',
+    meta: {
+    },
+    submenu: []
+  },
 ]
 
 export default routes

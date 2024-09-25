@@ -22,7 +22,7 @@
           @click.stop="showSidebar"
         />
         <span class="vx-logo mx-auto flex">
-          <span class="vx-logo-text text-primary">{{
+          <span class="vx-logo-text text-dark">{{
             $store.state.pageTitle
           }}</span>
         </span>

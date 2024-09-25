@@ -1,0 +1,1227 @@
+[
+  {
+    "name": "Summon Vermin",
+    "range": "10'",
+    "school": "conjuration",
+    "castTime": "1 Round",
+    "duration": "Instant",
+    "level": {
+      "Magic-User": 0,
+      "Illusionist": 0
+    },
+    "components": "",
+    "category": "Utility, Summoning",
+    "attackSave": "",
+    "system": "OSR",
+    "book": "BF 0 Level Spells Supplement",
+    "effect": "This cantrip summons one small, totally ordinary insect (such as a beetle, fly, or spider), a small rodent (such as a field mouse), or a cloud of gnats into a certain area. If targeted intelligently, the spell maybe able to disrupt spell casting, but will never deal any actual damage (including poison) to the target. \n\nReversed,this cantrip becomes Exterminate, which may kill any one creature of similar size as the ones described in the spell."
+  },
+  {
+    "name": "Mage Hand",
+    "range": "10'",
+    "school": "conjuration",
+    "castTime": "1 Round",
+    "duration": "10 Rounds",
+    "level": {
+      "Magic-User": 0,
+      "Illusionist": 0
+    },
+    "components": "",
+    "category": "Utility, Summoning",
+    "attackSave": "",
+    "system": "OSR",
+    "book": "BF 0 Level Spells Supplement",
+    "effect": "A spectral hand is conjured, which may either move one pound of materials at a speed of 10 feet per round for ten rounds (at a maximum range of 40 feet), or give an object a powerful push about equal to the caster's strength at a range of 10 feet"
+  },
+  {
+    "name": "Inscribe",
+    "range": "10'",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "Instant",
+    "level": {
+      "Magic-User": 0,
+      "Illusionist": 0
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSR",
+    "book": "BF 0 Level Spells Supplement",
+    "effect": "This cantrip engraves up to  1  square  foot  ofwriting or drawing on almost any nonliving surface."
+  },
+  {
+    "name": "Flavor",
+    "range": "10'",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "instant",
+    "level": {
+      "Magic-User": 0,
+      "Illusionist": 0
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSR",
+    "book": "BF 0 Level Spells Supplement",
+    "effect": "This cantrip may either make one dish taste anyway the caster wants it to (which is an illusion), or add salt, spice, sweetener, or another flavoring agent (which is real).\n\nReversed, it becomes Putrefy, which makes the food or drink either go bad (which is real) or taste as if it had been prepared wrongly (which is an illusion)."
+  },
+  {
+    "name": "Auditory Illusion",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "3 turns",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A sound of the caster’s choosing is conjured, emanating from a point anywhere within range. \n\n▶ Motion: The sound may move as long as it remains within range. \n\n▶ Change: The sound may change and evolve over the course of the duration as the caster wishes. \n\n▶ Loudness: The loudness of the sound is limited by the caster’s level: a maximum equivalent to approximately four humans shouting per experience level.\n(For example, a horde of rats is equal to 8 humans, a lion roaring is equal to 16 humans, a dragon roaring is equal to 24 or more humans.)"
+  },
+  {
+    "name": "Chromatic Orb",
+    "range": "60'",
+    "school": "evocation",
+    "castTime": "1 Round",
+    "duration": "Instant",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "A Gemstone (see below)",
+    "category": "Combat, Damage, Control",
+    "attackSave": "Ranged",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell conjures an orb of pure colour that shoots towards a visible target within range.\n\n▶ Colour: The caster may conjure an orb of one of the colours listed in the table opposite, depending on their experience level and the gems available. \n\n▶ Gemstone: The colour orb is created by refracting and amplifying the pure hue and intrinsic properties of a gemstone, which must be in the caster’s possession. Casting chromatic orb does not cause the gemstone to be consumed.\n\n▶ Value: The gem to be used must be of a certain minimum value (indicated in the table opposite).\n\n▶ Hit: The orb hits unerringly, inflicting damage on the target and another effect that depends on its colour"
+  },
+  {
+    "name": "Colour Spray",
+    "range": "20’ long cone, 20’ wide at end",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Instant",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Combat, Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A flurry of clashing, rainbow-hued colours erupts from the caster’s hand.\n\n▶ Targets: 1d6 creatures in the area of effect. The effect: Depends on the HD of each target, relative to the caster:\n\n▶ HD less than or equal to caster: Knocked unconscious for 2d4 rounds. (Creatures of 6HD or greater may save versus spells.) \n\n▶ HD up to 2 greater than caster: Save versus spells or be blinded for 1d4 rounds. A blind creature cannot attack. \n\n▶ HD 3 or more greater than caster: Save versus spells or be unable to move, attack, or make other actions for one round. Creatures that cannot see: Are unaffected by this spell."
+  },
+  {
+    "name": "Dancing Light",
+    "range": "40' + 10' per level",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Lights under the caster’s control are conjured and may be directed to move anywhere within range. The caster may choose to conjure one of the following types of light: \n\n1. Torches: 1–4 lights that resemble \n\ntorches or lanterns, casting the appropriate volume of light. \n\n2. Spheres: 1–4 glowing spheres, resembling will-o-the-wisps. \n\n3. Humanoid: A single, glowing, humanoid form."
+  },
+  {
+    "name": "Detect Illusion",
+    "range": "touch",
+    "school": "divination",
+    "castTime": "1 Round",
+    "duration": "3 Turns",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Detection",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The subject can see through illusions within 10’ per level of the caster. Invisible creatures or objects in the same range are also revealed."
+  },
+  {
+    "name": "Glamour",
+    "range": "The caster",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "2d6 Rounds +2 per level",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster is wrapped in an illusion, taking on the outward appearance of another humanoid. Two variants are possible, chosen as the spell is cast: \n\n1. Imagined form: The caster takes on a form which they imagine. \n\n2. Duplicate individual: The caster copies the form of a living individual whom they touch. An attack roll is required if the target is unwilling. Stipulations: The following apply: \n\n▶ Height: The illusionary form may be at most 1’ taller or shorter than the caster’s normal form. \n\n▶ Weight: Apparent weight may be altered in any way. \n\n▶ Gear: Clothing or items may be altered in any way. \n\n▶ Observers: If the spell is used to copy another’s appearance, those familiar with the copied individual may save versus spells to detect the ruse."
+  },
+  {
+    "name": "Hypnotism",
+    "range": "30'",
+    "school": "enchantment",
+    "castTime": "1 Round",
+    "duration": "1 Round + 1 per level",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster’s gestures and droning syllables open the minds of one or more subjects within range to a hypnotic suggestion that is uttered as part of the spell casting. \n\n▶ Number of targets: Up to 1d6 creatures are affected. The number of creatures affected is determined after the suggestion is made. \n\n▶ Wording: The suggestion must take the form of a short phrase (at most one or two sentences) suggesting a course of action to the subjects. \n\n▶ Comprehension: A language that is understood by the subjects must be used. \n\n▶ Harmful suggestions: A suggested course of action that is obviously harmful to a subject causes the spell to automatically fail for that subject. \n\n▶ Saving throw: Each subject may save versus spells to resist the hypnotic suggestion. If the save fails, the subject will follow the caster’s suggestion for up to the duration of the spell. \n\n▶ Reasonable suggestions: A suggestion that is worded in such a way to make it sound very reasonable incurs a –2 penalty to the saving throw. \n\nRestrictions: Undead are not affected by hypnotism"
+  },
+  {
+    "name": "Light",
+    "range": "120'",
+    "school": "evocation",
+    "castTime": "1 Round",
+    "duration": "6 Turns + 1 per level",
+    "level": {
+      "Illusionist": 1,
+      "Magic-User": 1
+    },
+    "components": "",
+    "category": "Utility, Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell has three usages: \n\n1. Conjuring light: In a 15’ radius. The magical light is sufficient for reading, but is not as bright as daylight. The spell may be cast upon an object, in which case the light moves with the object. \n\n2. Blinding a creature: By casting the spell upon its eyes. If the target fails a saving throw versus spells, it is blinded for the duration. A blind creature cannot attack. \n\n3. Cancelling darkness: Light may cancel a darkness spell (see below). \n\nReversed: Darkness Creates a 15’ radius area of magical blackness, preventing normal sight (but not infravision). Like light, it may alternatively be used to blind creatures or to dispel a light spell."
+  },
+  {
+    "name": "Phantasmal Force",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Concentration",
+    "level": {
+      "Illusionist": 1,
+      "Magic-User": 2
+    },
+    "components": "",
+    "category": "Combat, Control, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A visual illusion of the caster’s choosing manifests in a 20’ cube area. Three types of illusions may be created: \n\n1. An illusionary monster: That can be directed to attack. The monster has AC 9 [10] and vanishes if hit in combat. \n\n2. An illusionary attack: For example, an avalanche, a falling ceiling, a magic missile, etc. Targets who save versus spells are unaffected. \n\n3. A scene: Either changing the appearance of the affected area or creating the appearance of something new. The scene disappears if touched. \n\nStipulations: The following apply: \n\n▶ Concentration: Is required to maintain the illusion. If the caster moves or loses concentration, the spell ends. \n\n▶ Illusionary monsters or attacks: May appear to be harmful but never inflict real damage. A character who appears to die actually falls unconscious, a character turned to stone will actually be paralysed, and so on. Such effects last for 1d4 turns. \n\n▶ Illusions from imagination: If the illusion is of something the caster has not personally seen, the referee should grant targets a bonus to any applicable saving throws."
+  },
+  {
+    "name": "Read Magic",
+    "range": "The caster",
+    "school": "divination",
+    "castTime": "1 Round",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 1,
+      "Magic-User": 1
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "By means of read magic, the caster can decipher magical inscriptions or runes as follows: \n\n▶ Scrolls: The magical script of a scroll of arcane spells can be understood. The caster is then able to activate the scroll at any time in the future. \n\n▶ Spell books: A spell book written by another arcane spell caster can be deciphered. \n\n▶ Inscriptions: Runes or magical words inscribed on an object or surface can be understood. \n\n▶ Reading again: Once the caster has read a magical inscription using read magic, they are thereafter able to read that particular writing without recourse to the use of this spell."
+  },
+  {
+    "name": "Spook",
+    "range": "10'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Until broken (see below)",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Combat, Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster gestures threateningly at an intelligent target within range. \n\n▶ Saving throw: The target may save versus spells to avoid coming under the spell’s effect. \n\n▶ An afflicted target: Perceives the caster as a monster from its worst nightmares and will flee from the caster at maximum speed. \n\n▶ Breaking the spell: The target may make a new save versus spells each round with success indicating that the spell is broken. Until the spell is broken, the target believes it is being pursued by the imagined horror. \n\nRestrictions: Undead and creatures of less than animal intelligence are not affected."
+  },
+  {
+    "name": "Wall of Fog",
+    "range": "60'",
+    "school": "conjuration",
+    "castTime": "1 Round",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 1
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A wall of roiling vapour is conjured at a location of the caster’s choosing within range. \n\n▶ Area: The fog fills a 10’ cube area per level of the caster. \n\n▶ Vision: The fog blocks normal vision and infravision. \n\n▶ Strong winds: Can clear the fog before the spell’s duration has expired."
+  },
+  {
+    "name": "Blindness / Deafness",
+    "range": "30'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Permanent",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Debuff",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A single creature is afflicted by a phantasm which nullifies either its visual or aural sensory input (as selected by the caster), rendering it blind or deaf.\n\n▶ Saving throw: The target may save versus spells to avoid the phantasm.\n\n▶ Removing: As the blindness or deafness caused by this spell is illusory, it cannot be removed by magic that cures disease. The affliction may be removed by spells that dispel magic or illusions.\n\n▶ Cancelling: The caster may cancel the spell’s effect at will."
+  },
+  {
+    "name": "Blur",
+    "range": "The caster",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Combat",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster’s form becomes blurry and wavering.\n\n▶ Attack penalties: Creatures attacking the caster suffer a –4 penalty to hit. This penalty is reduced to –2 on a creature’s second or subsequent attempts to hit the caster.\n\n▶ Save bonus: The caster gains a +1 bonus to saving throws against magic that directly targets them."
+  },
+  {
+    "name": "Detect Magic",
+    "range": "60'",
+    "school": "divination",
+    "castTime": "1 Round",
+    "duration": "2 Turns",
+    "level": {
+      "Illusionist": 2,
+      "Magic-User": 1
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Enchanted objects, areas, or creatures are caused to glow. Both permanent and temporary enchantments are revealed."
+  },
+  {
+    "name": "False Aura",
+    "range": "30'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The aura of a creature or object is veiled.\n\n▶ Detection spells: (e.g. detect magic, detect evil) are deflected, revealing another creature or object nearby.\n\n▶ Divination spells: (e.g. know alignment) cast upon the subject reveal the opposite to the truth."
+  },
+  {
+    "name": "Fascinate",
+    "range": "30'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "See below",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell causes a single creature to perceive the caster — whatever their normal appearance — as utterly captivating. \n\n▶ Restrictions: Creatures of less than animal intelligence are not affected. \n\n▶ Saving throw: The subject may save versus spells to avoid the effect. Affected subjects: Behave as follows: \n\n▶ Besotted: The subject follows the caster wherever they go, as if besotted, unless doing so would present a serious danger. \n\n▶ Obedience: If the caster can communicate with the subject (even if only by gestures), it may obey requests. Each time a request is made of the subject, the caster must make a CHA check (possibly penalised, if the request is against the nature or best interests of the subject). If the check fails, the spell is broken and the target’s perception of the caster becomes one of horror, rage, and hate. \n\n▶ Animals: An animal remains fascinated for 1d4 days, after which it may either attack the caster (if it has been mistreated) or simply leave. If the caster treated the animal well, there is a percentage chance equal to the caster’s CHA that the animal will henceforth remain by the character’s side of its own free will."
+  },
+  {
+    "name": "Hypnotic Pattern",
+    "range": "30' square around the caster",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Concentration",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A pattern of twisting, interweaving colours fills the air in a 30’ × 30’ area centred on the caster. \n\n▶ Creatures that see the pattern: Must save versus spells or become hypnotised as long as they are able to watch the pattern. \n\n▶ Number of creatures affected: Up to 24HD of creatures may be hypnotised. \n\n▶ Hypnotised creatures: Simply stand still, gazing at the pattern of colours. \n\n▶ If a hypnotised creature is harmed: The pattern ceases to enthral it and it may act next round. \n\nConcentration: The caster can maintain the pattern indefinitely as long as they concentrate on the spell and remain stationary"
+  },
+  {
+    "name": "Improved Phantasmal Force",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Concentration",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Combat, Control, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An illusion of the caster’s choosing — including minor sounds (though not speech) — manifests in a 20’ cube area. Three types of illusions may be created: \n\n1. An illusionary monster: That can be directed to attack. The monster has an Armour Class of 7 [12] and will vanish if hit in combat. \n\n2. An illusionary attack: For example, an avalanche, a falling ceiling, a magic missile, etc. Targets who save versus spells are unaffected. \n\n3. A scene: Either changing the appearance of the affected area or creating the appearance of something new. The scene disappears if touched. \n\nStipulations: The following apply: \n\n▶ Concentration: Is required to maintain the illusion. If the caster moves at faster than half speed or loses concentration, the spell ends. \n\n▶ Persistence: Even when the caster stops concentrating on the spell, the illusion persists for two further rounds. \n\n▶ Illusionary monsters or attacks: May appear to be harmful but never inflict real damage. A character who appears to die actually falls unconscious, a character turned to stone will actually be paralysed, and so on. Such effects last for 1d4 turns. \n\n▶ Illusions from imagination: If the illusion is of something the caster has not personally seen, the referee should grant targets a bonus to any applicable saving throws."
+  },
+  {
+    "name": "Invisibility",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Permanent (but may be broken, see below)",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster or another creature or object within range becomes invisible: \n\n▶ If cast on a creature: Any gear the subject is carrying is also rendered invisible (this includes clothing and armour). Items dropped or put down by an invisible creature become visible. If the subject attacks or casts a spell, the invisibility is broken, ending the spell. \n\n▶ If cast on an object: The invisibility is permanent. \n\n▶ Light sources: If a light source is made invisible (either as part of a creature’s gear or as an individual object), the light it casts remains visible."
+  },
+  {
+    "name": "Magic Mouth",
+    "range": "Touch",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Permanent until triggered",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Communication",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster imbues an inanimate object with a message that is to be spoken out loud by a magical mouth when a certain trigger condition occurs. \n\n▶ The message: Must be in a language the caster speaks and may consist of up to 25 words. \n\n▶ The trigger condition: May be as broad or as specific as the caster wishes. It may include conditions on the enchanted object being touched or on the presence of creatures within 30’ of the object. The trigger condition may only take visual appearances into account (e.g. it cannot discern the alignment, class, level, etc. of creatures who pass by). \n\n▶ Once triggered: The mouth appears, animates, and speaks the predetermined message. The enchantment then ends. \n\n▶ Casting spells: The triggered message cannot cast spells."
+  },
+  {
+    "name": "Mirror Image",
+    "range": "The caster",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "6 Turns",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Combat",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "1d4 illusory duplicates of the caster appear. \n\n▶ Behaviour: The mirror images look and behave exactly as the caster. \n\n▶ Attacks on the caster: Destroy one of the mirror images (even if the attack misses)."
+  },
+  {
+    "name": "Quasimorph",
+    "range": "The caster",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "3d4 Rounds + 2 per level",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster’s physical form undergoes a quasi-real transformation, taking on the appearance of another creature. \n\n▶ The new form: Is chosen by the caster. The form of any creature may be adopted. \n\n▶ Size: The new form may be at most 50% larger or smaller than the caster’s normal size. \n\nThe physical capabilities of the new form: Are granted to the caster to a limited degree: \n\n▶ Flight: If the new form can fly, the caster is able to fly at one-quarter of its flying movement rate. \n\n▶ Breathing: If the new form can breathe underwater, the caster may also do so. \n\n▶ Attacks: When attacking, the caster may appear to use the attacks of the new form but cannot make more attack rolls or inflict more damage than they are normally able to (using whatever weapon is carried). \n\n▶ Special abilities: The caster does not gain any special or magical attacks possessed by the new form (e.g. breath weapons, poison, charm, etc.)."
+  },
+  {
+    "name": "Whispering Wind",
+    "range": "1 mile per level",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "Special",
+    "level": {
+      "Illusionist": 2
+    },
+    "components": "",
+    "category": "Communication",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell allows the caster to send a message or other, non-verbal sound via the wind to a distant location within range. \n\n▶ The destination: Must be known to the caster. \n\n▶ The message: Up to 100 words or one minute of non-verbal sound. \n\n▶ Rate: The message travels on the wind, unnoticed, at one mile per turn. \n\n▶ Delivery: On reaching the designated destination, the wind delivers the caster’s message. The message is whisper quiet, relayed by the susurrations of the air, but can be heard by all within 30’. The message is delivered at the location whether or not anyone is present to hear it."
+  },
+  {
+    "name": "Blacklight",
+    "range": "60'",
+    "school": "evocation",
+    "castTime": "1 Round",
+    "duration": "1 Turn per level",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Twisting the nature of light and darkness, this spell creates a 30’ diameter area of illumination which cannot be perceived outside of this area. \n\n▶ Stealth: It is thus possible for those within the area of blacklight to see in utter darkness while not revealing their own presence. \n\n▶ Area: The caster may cause the area of blacklight to manifest either in a designated area within range or about their own person. (In the latter case, the magical effect moves with the caster.) \n\n▶ Magical darkness: The illumination created by blacklight does not penetrate magical darkness."
+  },
+  {
+    "name": "Dispel Illusion",
+    "range": "10' per level",
+    "school": "abjuration",
+    "castTime": "1 Round",
+    "duration": "Instant",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Utility, Control",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Dispel illusion ends ongoing illusions or phantasms (i.e. those with a non-instantaneous duration) within a 20’ cube area. \n\n▶ Spells cast by a non-illusionist: Are automatically dispelled. \n\n▶ Spells cast by another illusionist: Have a chance of not being dispelled. If the level of the caster of the effect to be dispelled is higher than the level of the caster of dispel illusion, there is a 5% chance per level difference that the attempt to dispel will fail. \n\n▶ Magic items: Are unaffected."
+  },
+  {
+    "name": "Fear",
+    "range": "60’ cone, 30’ wide at end",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Instant",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Conjures a cone of magical energy that terrifies those within it. \n\n▶ Effect: Creatures in the cone are struck with terror and will flee from the caster at maximum speed for one round per level of the caster. (A save versus spells negates the effect). \n\n▶ Dropping items: Affected creatures have a 60% chance of immediately dropping anything in their hands. The chance is decreased by 5% for each level or Hit Die above 1."
+  },
+  {
+    "name": "Hallucinatory Terrain",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Until touched",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Hallucinatory terrain either conjures an illusory terrain feature (e.g. a hill, wood, marsh, etc.) or hides an existing terrain feature. \n\n▶ Area: The illusion must fit completely within the spell’s range. \n\n▶ Touching: If the illusion is touched by an intelligent being, the spell is negated."
+  },
+  {
+    "name": "Invisibility 10’ Radius",
+    "range": "120'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Permanent (but may be broken, see below)",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A selected creature and all creatures within 10’ of it become invisible: \n\n▶ Area: The 10’ radius area of the spell’s effect moves with the chosen creature. \n\n▶ Exiting the area: Subjects that move more than 10’ away from the chosen creature become visible. \n\n▶ Entering the area: Creatures that move into the area after the spell is cast do not become invisible. \n\n▶ Gear: Any gear a subject is carrying is also rendered invisible. Items dropped or put down by an invisible creature become visible. Carried light sources become invisible but the emitted light does not. \n\n▶ Breaking the invisibility: If a subject attacks or casts a spell, the invisibility is broken for that subject."
+  },
+  {
+    "name": "Nondetection",
+    "range": "The caster",
+    "school": "abjuration",
+    "castTime": "1 Round",
+    "duration": "1 Turn per level",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "While this spell lasts, the caster is invisible to all forms of magical location, scrying, and divination, including effects such as clairvoyance, clairaudience, and ESP."
+  },
+  {
+    "name": "Paralysation",
+    "range": "10' per level",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "6 Turns or until cancelled",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Combat, Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A number of creatures within a 20’ cube area are afflicted with the terrifying phantasm of being unable to move. \n\n▶ Number of creatures affected: Up to 2HD of creatures per level of the caster. \n\n▶ Priority: Creatures with the lowest HD are affected first. \n\n▶ Saving throw: Each target may save versus spells to resist the phantasm. \n\n▶ Mindless creatures: Are unaffected. \n\n▶ Cancelling: The caster may cancel the phantasm at will."
+  },
+  {
+    "name": "Phantom Steed",
+    "range": "10'",
+    "school": "conjuration",
+    "castTime": "1 Round",
+    "duration": "6 Turns per level",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Utility, Summoning",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A quasi-real, shadowy, horse-like creature is conjured by this spell to carry the caster (or another, designated person) upon its back. \n\n▶ Appearance: The steed is deep black in colour and has ghostly hooves that make no sound as it runs. \n\n▶ Loads: The steed refuses to carry any load beyond that of the rider and their possessions. \n\n▶ Stats: The steed has 12 hit points, AC 8 [11], and a movement rate of 30’ (10’) per level of the caster. \n\n▶ If the steed is killed: It evaporates into smoke. \n\nSpecial abilities: The phantom steed gains additional abilities, depending on the level of the caster: \n\n▶ 8th level: The steed is unhindered by unstable ground (e.g. mud or bog). \n\n▶ 10th level: The steed may walk across water. \n\n▶ 12th level: The steed may walk upon air and is thus able to cross chasms and pits. \n\n▶ 14th level: The steed can fly"
+  },
+  {
+    "name": "Rope Trick",
+    "range": "Touch",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "2 Turns per Level",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "A rope",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A rope is enchanted to rise up into the air, enabling the caster and others to climb it and disappear into an imaginary space. \n\n▶ The rope: Rises up to its full length (or at most 30’) and hangs stiffly in the air, magically tethered at the upper end. \n\n▶ Climbing the rope: The rope may be climbed normally. \n\n▶ Imaginary space: Human-sized (or smaller) creatures that climb to the top of the rope disappear into the imaginary space beyond. \n\n▶ Capacity: The imaginary space can hold up to six individuals. \n\n▶ Hidden: Creatures inside the imaginary space cannot be perceived or affected in any way by those on the outside, in real space. \n\n▶ Pulling up the rope: The rope may be pulled up into the imaginary space, also disappearing. \n\nWhen the spell’s duration ends: The rope falls slack, the imaginary space disappears, and anyone inside the imaginary space reappears in mid air."
+  },
+  {
+    "name": "Spectral Force",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Concentration",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Combat, Control, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An illusion of the caster’s choosing — including sounds, smells, and thermal elements — manifests in a 20’ cube area. Three types of illusions may be created: \n\n1. An illusionary monster: That can be directed to attack. The monster has AC 5 [14] and vanishes if hit in combat. \n\n2. An illusionary attack: For example, an avalanche, a falling ceiling, a magic missile, etc. Targets who save versus spells are unaffected. \n\n3. A scene: Either changing the appearance of the affected area or creating the appearance of something new. The scene disappears if touched. \n\nStipulations: The following apply: \n\n▶ Concentration: Is required to maintain the illusion. If the caster moves at faster than half speed or loses concentration, the spell ends. \n\n▶ Persistence: Even when the caster stops concentrating on the spell, the illusion persists for three further rounds. \n\n▶ Illusionary monsters or attacks: May appear to be harmful but never inflict real damage. A character who appears to die actually falls unconscious, a character turned to stone will actually be paralysed, and so on. Such effects last for 1d4 turns. \n\n▶ Illusions from imagination: If the illusion is of something the caster has not personally seen, the referee should grant targets a bonus to any applicable saving throws."
+  },
+  {
+    "name": "Suggestion",
+    "range": "30'",
+    "school": "enchantment",
+    "castTime": "1 Round",
+    "duration": "4 Turns + 4 per level",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Utility, Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster utters a suggestion to influence the behaviour of a selected subject. \n\n▶ Wording: The suggestion must take the form of a short phrase (at most one or two sentences) suggesting a course of action to the subject. \n\n▶ Comprehension: A language that is understood by the subject must be used. \n\n▶ Harmful suggestions: Suggestions that are obviously harmful to the subject cause the spell to automatically fail. \n\n▶ Saving throw: A save versus spells is allowed to resist the suggestion. If the save fails, the subject will follow the caster’s suggestion for up to the duration. \n\n▶ Reasonable suggestions: A suggestion that is worded in such a way to make it sound very reasonable incurs a –2 penalty to the saving throw. \n\nRestrictions: Undead are unaffected."
+  },
+  {
+    "name": "Wraithform",
+    "range": "The caster",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 3
+    },
+    "components": "",
+    "category": "Buff, Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster’s person—along with everything worn or carried—becomes shadowy and semi-ethereal. \n\n▶ Movement: The caster is able to pass through small holes and cracks. \n\n▶ Actions: The caster may cast spells but may only attack incorporeal creatures. \n\n▶ Invulnerability: Only ethereal creatures or magic may harm the caster. \n\n▶ Pass undead: Undead will ignore the caster, believing them to be a phantom of some kind. Undead of 10 or more HD may save versus spells (at a –4 penalty) to notice the illusion. \n\n▶ Cancelling: The caster may end the spell at will, returning to normal"
+  },
+  {
+    "name": "Confusion",
+    "range": "120'",
+    "school": "enchantment",
+    "castTime": "1 Round",
+    "duration": "12 Rounds",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Combat, Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell causes 3d6 subjects within 60’ of one another to become confused, making them unable to independently determine what they will do. \n\n▶ Subjects of 2+1 HD or greater: May save versus spells each round to resist the spell’s effect, acting with free will that round if they make the save. \n\n▶ Subjects of 2 HD or lower: May not make a saving throw. \n\n▶ Behaviour: Roll on the following table separately for each affected subject each round to determine how that subject acts that round: <Insert Table>"
+  },
+  {
+    "name": "Dispel Magic",
+    "range": "120'",
+    "school": "abjuration",
+    "castTime": "1 Round",
+    "duration": "Instant",
+    "level": {
+      "Illusionist": 4,
+      "Magic-User": 3
+    },
+    "components": "",
+    "category": "Utility, Control",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Dispel magic ends spells of non-instantaneous duration within a 20’ cube area. \n\n▶ Caster levels: If the level of the caster of the effect to be dispelled is higher than the level of the caster of dispel magic, there is a 5% chance per level difference that the attempt to dispel will fail. \n\n▶ Magic items: Are unaffected."
+  },
+  {
+    "name": "Emotion",
+    "range": "10' per level",
+    "school": "enchantment",
+    "castTime": "1 Round",
+    "duration": "Concentration",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Control, Buff, Debuff",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "All creatures in a 40’ square area within range must save versus spells or be afflicted by an emotion of the caster’s choosing: \n\n▶ Fear: Subjects are struck with terror and will flee from the caster at maximum speed. Affected creatures have a 60% chance of immediately dropping anything in their hands. The chance is decreased by 5% for each level or Hit Die above 1. Fear counters ongoing rage effects. \n\n▶ Hate: Subjects gain a +2 bonus to attacks, damage, saving throws, and morale. Hate counters ongoing hopelessness effects. \n\n▶ Hopelessness: Subjects are utterly demoralised and will dejectedly follow enemies’ orders (e.g. to surrender or leave). In combat, there is a 1-in-4 chance of a subject doing nothing each round, and a 1-in-4 chance of them retreating. Hopelessness counters ongoing hate effects. \n\n▶ Rage: Subjects go berserk, gaining a +1 bonus to hit and +3 to damage. Subjects fight without thought for their own lives and will not use shields. Subjects also gain 5 temporary hit points. These may take a subject above its normal maximum, but disappear when the spell ceases. Rage counters ongoing fear effects. \n\nConcentration: Is required to maintain the projected emotion. If the caster moves or loses concentration, the spell ends."
+  },
+  {
+    "name": "Illusory Stamina",
+    "range": "Touch",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "3 Turns per level",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Combat, Buff",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Up to four persons touched by the caster are refreshed, some of their lost hit points being temporarily restored. \n\n▶ Bonus hit points: Each subject gains a number of bonus hit points equal to 50% of the number of hit points they are currently below maximum. For example, if the subject has a maximum of 30 hit points and a current total of 12 hit points, they gain 9 bonus hit points (50% of 18). \n\n▶ Any damage suffered: Is subtracted first from the bonus hit points. \n\n▶ When the duration ends: If any of the bonus hit points remain, they disappear."
+  },
+  {
+    "name": "Improved Invisibility",
+    "range": "The caster or a creature touched",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "4 Rounds + 1 per level",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Utility, Combat",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster or another creature touched becomes invisible: \n\n▶ Attacking: The subject may attack while invisible. \n\n▶ Being attacked: Opponents who are aware of the subject’s presence (but who cannot see invisible) may detect a faint shimmering, allowing them to locate the subject. The subject gains a +4 bonus to AC and saving throws against attacks from such opponents. \n\n▶ Equipment: Any gear the subject is carrying is also rendered invisible (this includes clothing and armour). Items dropped or put down by an invisible creature become visible. \n\n▶ Light sources: If a light source is made invisible (as part of the subject’s gear), the light it casts is unaffected."
+  },
+  {
+    "name": "Massmorph",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Permanent",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Deception",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A force of human-sized creatures within a 240’ diameter area is veiled by illusion to appear as a copse of trees or orchard. \n\n▶ Moving through: Once the illusion is in place, even creatures moving among the veiled subjects are deceived. \n\n▶ Subjects who leave the affected area: Cease to be veiled. \n\n▶ Dismissing: The caster may dismiss the illusion in its entirety at any time."
+  },
+  {
+    "name": "Minor Creation",
+    "range": "Touch",
+    "school": "illusion",
+    "castTime": "1 Turn",
+    "duration": "6 Turns per level",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "a tiny piece of constituent matter",
+    "category": "Creation, Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Over the course of one turn, the caster weaves a semi-real but tangible object from a tiny piece of constituent matter. For example, a semi-real rope could be formed from a strand of hemp fibre. \n\n▶ Non-living: Only objects of non-living vegetable matter may be created (e.g. fabric, rope, wood, etc.). \n\n▶ Size: The object may be no larger than one cubic foot per level of the caster. \n\n▶ Food: While it is possible to create food, its semi-real nature means that it provides no nourishment. \n\n▶ When the duration ends: The conjured item disappears. The piece of matter from which it was woven remains"
+  },
+  {
+    "name": "Phantasmal Killer",
+    "range": "5' per level",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Combat",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The subconscious fears of a single target are manifest in its mind as a vision of the most horrible monstrosity it can imagine. \n\n▶ Saving throw: The subject may save versus spells with a +2 bonus to resist the phantasm. \n\n▶ Pursuit: The monster pursues the subject relentlessly and, as it only exists in the subject’s mind, can move at any speed and pass through any obstacles. \n\n▶ Invulnerability: The monster is invulnerable to all of the subject’s attacks. \n\n▶ Attacks: The monster attacks the subject once per round with a THAC0 of 16 [+3]. If one of the monster’s attacks is successful, the subject dies of terror. \n\n▶ Cancelling: Killing or knocking out the caster ends the phantasm. \n\nRestrictions: Undead and creatures of less than animal intelligence are unaffected."
+  },
+  {
+    "name": "Rainbow Pattern",
+    "range": "30' square around the caster",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Concentration",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A band of twisting, interweaving, rainbow colours fills the air in a 30’ × 30’ area centred on the caster. \n\n▶ Creatures that see the pattern: Must save versus spells or become hypnotised as long as they are able to watch the pattern. \n\n▶ Number of creatures affected: A total of up to 24 Hit Dice of creatures may be hypnotised. \n\n▶ Hypnotised creatures: Simply stand still, gazing at the pattern of colours. \n\n▶ If a hypnotised creature is harmed: The pattern ceases to enthral it and it may act next round. \n\nMaintaining the pattern: The pattern can be maintained and directed as follows: \n\n▶ Concentration: The caster can maintain the pattern indefinitely, as long as they concentrate on the spell and remain stationary. \n\n▶ Releasing: The caster may optionally end concentration and direct the pattern to drift away in a specified direction. The pattern drifts at a rate of 30’ per round and fades after 1d4 rounds. Hypnotised creatures will do their best to follow the pattern, but if they are led into a dangerous area, another saving throw versus spells is allowed to snap out of the trance."
+  },
+  {
+    "name": "Shadow Monsters",
+    "range": "30'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Combat, Summoning",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster conjures one or more semi-real monsters, woven from shadow-stuff. \n\n▶ Hit Dice: The monsters’ total Hit Dice may not exceed the caster’s level. \n\n▶ Type: All monsters must be of the same type. \n\n▶ Hit points: The monsters have 1d2 hit points per Hit Die (instead of the normal 1d8 hit points per Hit Die). \n\n▶ Control: The monsters are under the caster’s control. \n\nSaving throw: Every creature viewing the shadow monsters may save versus spells: \n\n▶ If the save succeeds: The subject views the monsters as they truly are: vague, shifting forms of shadow. To this subject, the shadow monsters have AC 9 [10] and inflict one quarter of their normal damage (rounding down). This subject is unaffected by any special or magical attack forms of the monsters. \n\n▶ If the save fails: The subject perceives the monsters as real creatures of the chosen type. To this subject, the shadow monsters attack as normal and inflict normal damage. They may use any special or magical attack forms they possess, but attacks such as energy drain or petrification do not really occur—at worst, they might cause an opponent to fall unconscious or be paralysed for 1d4 turns"
+  },
+  {
+    "name": "Solid Fog",
+    "range": "60'",
+    "school": "conjuration",
+    "castTime": "1 Round",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Utility, Control",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A wall of roiling vapour appears at a location of the caster’s choosing within range. \n\n▶ Area: The fog bank fills a 10’ cube area per level of the caster. \n\n▶ Vision: The solid fog blocks normal vision and infravision. \n\n▶ Movement: Creatures moving through the fog move at one tenth of their normal movement rate. \n\n▶ Strong winds: Only very strong winds can clear the fog before the spell’s duration has expired. \n\n▶ Magical fire: A large area of magical fire can dissipate the fog in one round."
+  },
+  {
+    "name": "Veil of Abandonment",
+    "range": "10' per level",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Turn per level",
+    "level": {
+      "Illusionist": 4
+    },
+    "components": "",
+    "category": "Deception",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An area is cloaked with a combination of invisibility and illusion, making it seem vacant and neglected—covered in dust, cobwebs, and dirt, as if long abandoned. \n\n▶ Creatures: In the affected area when the spell is cast are not cloaked. \n\n▶ Inanimate objects: In the affected area are cloaked with invisibility and are veiled such that only direct contact will reveal their presence. Even then, an observer must make a saving throw versus spells to realise that the whole area is under the effects of an illusion: if the save fails, the observer believes that the detected object is merely invisible. \n\n▶ Creatures passing through the area: Believe that their passing makes footprints in the dust, breaks through cobwebs, etc. \n\n▶ Detection: Creatures that can detect invisible cannot see through this illusion."
+  },
+  {
+    "name": "Chaos",
+    "range": "120'",
+    "school": "enchantment",
+    "castTime": "1 Round",
+    "duration": "12 Rounds",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell causes all creatures in a 60’ diameter area to become confused, making them unable to independently determine what they will do. \n\n▶ Saving throw: Subjects that can cast illusionist spells or that have innate powers of illusion may save versus spells to resist the spell’s effect. \n\n▶ Behaviour: Roll on the following table separately for each affected subject each round to determine how that subject acts that round: <Insert Table>"
+  },
+  {
+    "name": "Demi-Shadow Monsters",
+    "range": "30'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Combat, Summoning",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster conjures one or more semi-real monsters, woven from shadow-stuff. \n\n▶ Hit Dice: The monsters’ total Hit Dice may not exceed the caster’s level. \n\n▶ Type: All monsters must be of the same type. \n\n▶ Hit points: The monsters have 1d4 hit points per Hit Die (instead of the normal 1d8 hit points per Hit Die). \n\n▶ Control: The monsters are under the caster’s control. \n\nSaving throw: Every creature viewing the shadow monsters may save versus spells: \n\n▶ If the save succeeds: The subject views the monsters as they truly are: vague, shifting forms of shadow. To this subject, the shadow monsters have AC 9 [10] and inflict half of their normal damage (rounding down). This subject is unaffected by any special or magical attack forms of the monsters. \n\n▶ If the save fails: The subject perceives the monsters as real creatures of the chosen type. To this subject, the shadow monsters attack as normal and inflict normal damage. They may use any special or magical attack forms they possess, but attacks such as energy drain or petrification do not really occur—at worst, they might cause an opponent to fall unconscious or be paralysed for 1d4 turns."
+  },
+  {
+    "name": "Illusion",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Combat, Control, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An illusion of the caster’s choosing — including sounds, smells, and thermal elements — manifests in a 20’ cube area. Three types of illusions may be created: \n\n1. An illusionary monster: That can be directed to attack. The monster has AC 5 [14]. If it is hit in combat, the attacker may save versus spells. If the save succeeds, the attacker realises the illusory nature of the monster and can no longer be harmed by it. \n\n2. An illusionary attack: For example, an avalanche, a falling ceiling, a magic missile, etc. Targets who save versus spells are unaffected. \n\n3. A scene: Either changing the appearance of the affected area or creating the appearance of something new. \n\nStipulations: The following apply: \n\n▶ Responsiveness: The illusion behaves and responds as decided by the caster when the spell is cast. No concentration is required to maintain the illusion. \n\n▶ Illusionary monsters or attacks: May appear to be harmful but never inflict real damage. A character who appears to die actually falls unconscious, a character turned to stone will actually be paralysed, and so on. Such effects last for 1d4 turns. \n\n▶ Illusions from imagination: If the illusion is of something the caster has not personally seen, the referee should grant targets a bonus to any applicable saving throws."
+  },
+  {
+    "name": "Looking Glass",
+    "range": "Touch",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "A finely wrought, silver mirror worth at least 1,000gp",
+    "category": "Utility, Detection",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A finely wrought, silver mirror is enchanted to act as a scrying device, allowing the caster to fleetingly view any place or object that is brought to mind: \n\n▶ The clarity of the vision: Is dependent on the scryer’s familiarity with the subject. \n\n▶ Casting spells: It is not possible to cast spells through the mirror into the viewed scene. \n\nMaterial cost: The mirror enchanted by this spell must be of at least 1,000gp value."
+  },
+  {
+    "name": "Major Creation",
+    "range": "Touch",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "12 or 6 Turns per level",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "a tiny piece of constituent matter",
+    "category": "Creation, Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "Over the course of a turn, the caster weaves a semi-real but tangible object from a tiny piece of constituent matter. For example, a sword could be formed from a splinter of steel. \n\n▶ Non-living: Only objects of non-living vegetable or mineral matter may be created (e.g. fabric, rope, wood, metal, stone, etc.). \n\n▶ Size: The object may be no larger than one cubic foot per level of the caster. \n\n▶ Food: While it is possible to create food, its semi-real nature means that it provides no nourishment. \n\n▶ Duration: If objects of vegetable matter are created, the duration is 12 turns per level, otherwise it is 6 turns per level. \n\n▶ When the duration ends: The conjured item disappears. The piece of matter from which it was woven remains."
+  },
+  {
+    "name": "Maze of Mirrors",
+    "range": "5' per level",
+    "school": "conjuration",
+    "castTime": "1 Round",
+    "duration": "Varies by subject’s INT",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Combat, Control",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A single subject within range is transported into a shifting, extra-dimensional mirror maze. \n\n▶ Duration: The subject is trapped in the maze for a duration depending on its intelligence. See the table below. \n\n▶ Escaping the maze: Once the subject has found its way out of the maze, it reappears in the location it was transported from. <Insert Table>"
+  },
+  {
+    "name": "Projected Image",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "6 Turns",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Deception",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An illusory duplicate of the caster appears within range. \n\n▶ Duplicate: The image is an exact duplicate of the caster that can only be differentiated by touch. \n\n▶ Subsequent spells cast: Appear to originate from the image. (Targets must still be visible to the caster, however.) \n\n▶ Spells and missiles: The image appears unaffected by spells or missile weapons. \n\n▶ Melee or touch: If the image is touched or hit in melee, it disappears."
+  },
+  {
+    "name": "Seeming",
+    "range": "10'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "12 hours",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Deception",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell alters the outward appearance of one or more persons to that of another type of humanoid. \n\n▶ Number of subjects: Up to one subject per two levels of the caster may be affected. \n\n▶ The illusionary appearance: All subjects take on the appearance of the same type of creature (e.g. human, elf, goblin, etc.), but each remains a recognisable individual—they do not look like clones. \n\n▶ Size and weight: The illusionary appearance may be at most 1’ taller or shorter than the subject. Apparent weight may be altered in any way. \n\n▶ Clothing or equipment: May be altered in any way. \n\n▶ Cloning: The spell cannot be used to precisely copy another’s appearance. \n\n▶ Saving throw: Unwilling subjects may save versus spells to avoid being affected."
+  },
+  {
+    "name": "Shadowcast",
+    "range": "30'",
+    "school": "divination",
+    "castTime": "1 Round",
+    "duration": "Up to 6 Turns + 1 per level",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The shadows cast by the light of a candle are enchanted, causing them to re-enact events which previously occurred in the area where the spell is cast. \n\n▶ Candle: The caster must light a candle and place it in the centre of the area to be affected, which must otherwise be in darkness. The candle burns down completely over the spell’s duration. \n\n▶ Time span: The caster may choose to look back into the past up to six turns plus one turn per level. \n\n▶ Shadow play: Once the starting point for the shadow re-enactment has been selected, the spell lasts for that amount of time, producing a shadowy replay of the past up to the moment the spell was cast. \n\n▶ Silhouettes: Only silhouettes of past events in the area are produced; any sound or speech which occurred is not replicated. \n\nEnhancement: The power of the illusion may be enhanced by using a specially manufactured candle: \n\n▶ Special candle: The candle must be formed from the earwax of a giant monster (which must be obtained by adventuring) and be inlaid with fine runes in gold leaf (at a cost of 200gp). \n\n▶ Sound: If such a candle is used, the shadow play is also accompanied by sound, faintly reproduced in the sputtering of the candle’s flame."
+  },
+  {
+    "name": "Shadowy Transformation",
+    "range": "The caster or a creature or object touched",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "1d4 Rounds + 1 per level",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Buff, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An object or creature touched becomes shadowy and semi-ethereal. \n\nIf an object is touched: \n\n▶ Insubstantial: The object becomes utterly insubstantial. It cannot be touched and provides no physical resistance. For example, a door transformed by this spell could be freely passed through. \n\n▶ Size: The object may be no larger than one cubic foot per level of the caster. \n\n▶ Magical objects: Magic items and objects created by spells (e.g. a wall of stone) cannot be targeted. \n\nIf a creature is touched: \n\n▶ Insubstantial: The subject and everything it carries becomes insubstantial. \n\n▶ Movement: The subject is able to pass through small holes and cracks. \n\n▶ Invulnerability: Only ethereal creatures or magic may harm the subject. \n\n▶ Pass undead: Undead will ignore the subject, believing them to be a phantom of some kind. Undead of 10 or more HD may save versus spells (at a –4 penalty) to notice the illusion. \n\n▶ Saving throw: An unwilling subject may save versus spells to avoid the transformation"
+  },
+  {
+    "name": "Time Flow",
+    "range": "10'",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "6 Turns per level",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This powerful spell warps the flow of time in the location where it is cast. \n\n▶ Time acceleration: For those within the area of effect, each turn that passes has the subjective effect of a whole hour. Within the affected area, spell durations pass more quickly and characters must eat and sleep at the accelerated rate. \n\n▶ Rest: If enough perceptual time is spent in the affected area, hit points may be recovered due to rest and spells may be re-memorized, subject to the normal rules. \n\n▶ Interaction: Any interaction between characters within the enchanted area and those outside of it occur at the normal rate—characters inside the area of time distortion do not gain or lose actions in combat, for instance. \n\n▶ Usage limit: Casting time flow more than once in the space of a week causes a permanent loss of one point of CON."
+  },
+  {
+    "name": "Visitation",
+    "range": "Unlimited",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "5 minutes",
+    "level": {
+      "Illusionist": 5
+    },
+    "components": "an item of close personal connection to the subject",
+    "category": "Communication",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell sends an apparition to deliver a message to a named subject. \n\n▶ The apparition: Takes the form of a ghostly figure of sinister or beguiling aspect, as the caster wishes. \n\n▶ The message delivered: May be up to 5 minutes long. \n\n▶ Sympathetic item: The caster requires an item of close personal connection to the subject (e.g. a ring, commonly worn garment, lock of hair, etc.). \n\n▶ Saving throw: If the subject is unwilling, they may save versus spells to prevent the visitation."
+  },
+  {
+    "name": "Acid Fog",
+    "range": "30'",
+    "school": "conjuration",
+    "castTime": "1 Round",
+    "duration": "1d4 Rounds + 1 per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Combat, Damage, Control",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A wall of roiling, acidic vapour appears at a location of the caster’s choosing within range. \n\n▶ Area: The fog bank fills a 10’ cube area per level of the caster. \n\n▶ Plant-life in the fog: Withers and dies. Small shrubs and grasses perish in two rounds, while large trees are more resilient and may take up to 16 rounds to finally blacken and die. \n\n▶ Creatures in the fog: Suffer 1 damage on the first round they are in the fog, 2 damage on the second round, 4 damage on the third round, and 8 damage on each subsequent round. \n\n▶ Vision: The acid fog blocks normal vision and infravision. \n\n▶ Movement: Creatures moving through the fog move at one tenth of their normal movement rate. \n\n▶ Strong winds: Only very strong winds can clear the fog before the spell’s duration has expired. \n\n▶ Magical fire: A large area of magical fire can dissipate the fog in one round."
+  },
+  {
+    "name": "Dream Quest",
+    "range": "60'",
+    "school": "enchantment",
+    "castTime": "1 Round",
+    "duration": "Permanent until fulfilled",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster commands a single subject to perform a specific quest or task, conveyed through a recurring dream. \n\n▶ The dream: While the spell remains in effect, the subject experiences the recurring dream every time they sleep. In the recurring dream, the subject witnesses themselves completing the prescribed quest. \n\n▶ Examples of quests: Rescuing a prisoner, killing a specific monster, bringing a magic item to the caster, or going on a journey to an oracle. \n\n▶ Suicidal quests: The prescribed quest must not be obviously suicidal. \n\n▶ Saving throw: The subject may save versus spells, with success indicating that the initial dream is experienced but the spell has no further effect. \n\n▶ Refusal: The subject must undertake the quest or begin to fade from reality. Every day in which the subject does not pursue the quest, they lose 1 hit point. This damage cannot be fatal (e.g. if the subject has only 1 hit point, no further loss due to this spell will occur). However, accrued damage cannot be healed by any means except completing the quest. \n\n▶ Completion: Once the task is completed, the spell ends. Any lost hit points are recovered."
+  },
+  {
+    "name": "Impersonation",
+    "range": "The caster or a person touched",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Turn per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "Sympathetic item",
+    "category": "Deception",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The subject takes on the appearance of a person of the caster’s choosing. \n\n▶ Appearance: The subject becomes physically indistinguishable from the selected individual, becoming the same height, age, race, sex, etc. \n\n▶ Manner: Even the subject’s gestures, voice, mode of speech, and mannerisms are rendered identical to those of the mimicked target. \n\n▶ Mind: The subject does not gain any of the memories, mental faculties, experiences, or abilities of the target. \n\n▶ Observers: Who know the mimicked target may save versus spells to detect the illusion if the subject does or says anything that the original would not. \n\nSympathetic item: The caster must have a personal possession or bodily sample (e.g. drop of blood, lock of hair) of the target to be mimicked."
+  },
+  {
+    "name": "Manifest Dream",
+    "range": "The caster",
+    "school": "conjuration",
+    "castTime": "8 hours",
+    "duration": "Varies by manifestation (see examples below)",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Creation, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell harnesses the malleable, imaginative potency of the dream world, manifesting the caster’s wish. \n\n▶ Dreaming: After casting the spell, the caster must lie down and drift off to sleep while visualising the desired manifestation. The visualisation will then be taken up by the caster’s subconscious and experienced as a potent dream. \n\n▶ Upon awakening: If the caster sleeps for an uninterrupted 8 hours, the desired manifestation comes to pass. \n\nPotency: While manifest dream can bring about a wide range of effects, its power is not unlimited. The following are examples of the maximum potency of the spell: \n\n▶ Healing: All of an individual’s wounds. \n\n▶ Regeneration: Of a lost body part (e.g. a hand or foot). \n\n▶ Revelation: Of a route through the wilderness, a secret entrance into a fortress, or the location of a lost item. (As long as the sought location or object is not warded by magic.) \n\n▶ Divination: Of the approximate strength of enemy forces. (Creatures of 7 or more Hit Dice in the force may save versus spells to avoid being detected in this way.) \n\n▶ Temporary restoration: Of a dead creature or destroyed object for 1 turn per level of the caster. \n\nUsage limit: This spell may be used at most once per week. A caster who oversteps this limit will become permanently insane."
+  },
+  {
+    "name": "Mass Suggestion",
+    "range": "90'",
+    "school": "enchantment",
+    "castTime": "1 Round",
+    "duration": "4 Turns + 4 per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Control",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster utters a suggestion to influence the behaviour of selected subjects within range. \n\n▶ Number of subjects: Up to one subject per level of the caster may be targeted. \n\n▶ Wording: The suggestion must take the form of a short phrase (at most one or two sentences) suggesting a course of action to the subjects. \n\n▶ Comprehension: A language that is understood by the subjects must be used. \n\n▶ Harmful suggestions: Suggestions that are obviously harmful to a subject cause the spell to automatically fail for that subject. \n\n▶ Saving throw: A save versus spells is allowed to resist the suggestion. If the save fails, the subject will follow the caster’s suggestion for up to the duration of the spell. \n\n▶ Reasonable suggestions: A suggestion that is worded in such a way to make it sound very reasonable incurs a –2 penalty to the saving throw. \n\nRestrictions: Undead are unaffected"
+  },
+  {
+    "name": "Mislead",
+    "range": "The caster",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Deception, Summoning",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "This spell causes an illusory double of the caster to appear while the real caster is rendered invisible. \n\n▶ Appearance: The illusion of the double includes visual, sonic, olfactory, and tactile elements. It is an entirely convincing double of the caster. \n\n▶ Action: The double may act completely independently, including moving, speaking, attacking, and casting spells (that the caster has memorized). \n\n▶ Combat: The double has the same combat capabilities as the caster and has a separate pool of hit points, equal to those of the caster when the spell is cast. \n\nThe caster: Is rendered invisible as follows: \n\n▶ Attacking: The caster may attack while invisible. \n\n▶ Being attacked: Opponents who are aware of the caster’s presence (but who cannot see invisible) may detect a faint shimmering, allowing them to locate the caster. The caster gains a +4 bonus to AC and saving throws against such attacks. \n\n▶ Equipment: Any gear the caster is carrying is also rendered invisible (this includes clothing and armour). Items dropped or put down become visible. \n\n▶ Light sources: If a light source is made invisible (as part of the caster’s gear), the light it casts is unaffected."
+  },
+  {
+    "name": "Permanent Illusion",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Permanent",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Combat, Control, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An illusion of the caster’s choosing — including sounds, smells, and thermal elements — manifests in a 20’ cube area. Two types of illusions may be created: \n\n1. An illusionary monster: That can be directed to attack. The monster has AC 5 [14]. If it is hit in combat, the attacker may save versus spells. If the save succeeds, the attacker realises the illusory nature of the monster and can no longer be harmed by it. \n\n2. A scene: Either changing the appearance of the affected area or creating the appearance of something new. \n\nStipulations: The following apply: \n\n▶ Responsiveness: The illusion behaves and responds as decided by the caster when the spell is cast. \n\n▶ Illusionary monsters: May appear to be harmful but never inflict real damage. A character who appears to die actually falls unconscious, a character turned to stone will actually be paralysed, and so on. Such effects last for 1d4 turns. \n\n▶ Illusions from imagination: If the illusion is of something the caster has not personally seen, the referee should grant targets a bonus to any applicable saving throws."
+  },
+  {
+    "name": "Shades",
+    "range": "30'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Combat, Summoning",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster conjures one or more semi-real monsters, woven from shadow-stuff. \n\n▶ Hit Dice: The monsters’ total Hit Dice may not exceed the caster’s level. \n\n▶ Type: All monsters must be of the same type. \n\n▶ Hit points: The monsters have 1d6 hit points per Hit Die (instead of the normal 1d8 hit points per Hit Die). \n\n▶ Control: The monsters are under the caster’s control. \n\nSaving throw: Every creature viewing the shadow monsters may save versus spells: \n\n▶ If the save succeeds: The subject views the monsters as they truly are: vague, shifting forms of shadow. To this subject, the shadow monsters have AC 9 [10] and inflict three quarters of their normal damage (rounding down). This subject is unaffected by any special or magical attack forms of the monsters. \n\n▶ If the save fails: The subject perceives the monsters as real creatures of the chosen type. To this subject, the shadow monsters attack as normal and inflict normal damage. They may use any special or magical attack forms they possess, but attacks such as energy drain or petrification do not really occur—at worst, they might cause an opponent to fall unconscious or be paralysed for 1d4 turns."
+  },
+  {
+    "name": "Through the Looking Glass",
+    "range": "10'",
+    "school": "transmutation",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "A finely wrought, full-length, silver mirror worth at least 5,000 gold",
+    "category": "Utility, Detection",
+    "attackSave": "Save vs Death",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "A finely wrought, full-length, silver mirror is enchanted to act as a scrying device, allowing the caster to view any place or object that is brought to mind: \n\n▶ The clarity of the vision: Depends on the scryer’s familiarity with the subject. \n\n▶ Casting spells: Through the mirror into the viewed scene is not possible. \n\nStepping into the mirror: The caster may step into the divined scene: \n\n▶ Portal: A faint, spatial distortion exists at the point at which the caster entered the scene. The portal is invisible, but may be perceived by the caster or by magic. \n\n▶ Stepping back through: Anyone who perceives the portal may step out of the mirror and into the location whence the caster originated. \n\n▶ At the end of the spell’s duration: The portal disappears. Any creature (including the caster) that stepped through the portal/mirror and did not return must save versus death or becomes lost in another plane of reality. \n\nMaterial cost: The mirror must be of at least 5,000gp value."
+  },
+  {
+    "name": "Triggered Illusion",
+    "range": "240'",
+    "school": "illusion",
+    "castTime": "1 Round",
+    "duration": "Permanent until triggered, then 1 round per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Combat, Control, Utility",
+    "attackSave": "Save vs Spells",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "An area within range is enchanted to produce an illusion of the caster’s choosing — including sounds, smells, and thermal elements — when a specified triggering condition occurs. Once triggered, the illusion manifests in a 20’ cube area, remaining for up to 1 round per level. The enchantment then ends. Three types of illusions may be created: \n\n1. An illusionary monster: That can be directed to attack. The monster has AC 5 [14]. If it is hit in combat, the attacker may save versus spells. If the save succeeds, the attacker realises the illusory nature of the monster and can no longer be harmed by it. \n\n2. An illusionary attack: For example, an avalanche, a falling ceiling, a magic missile, etc. Targets who save versus spells are unaffected. \n\n3. A scene: Either changing the appearance of the affected area or creating the appearance of something new. The scene disappears if touched. \n\nStipulations: The following apply: \n\n▶ Responsiveness: The illusion behaves and responds as decided by the caster when the spell is cast. \n\n▶ Illusionary monsters: May appear to be harmful but never inflict real damage. A character who appears to die actually falls unconscious, a character turned to stone will actually be paralysed, and so on. Such effects last for 1d4 turns. \n\n▶ Illusions from imagination: If the illusion is of something the caster has not personally seen, the referee should grant targets a bonus to any applicable saving throws. \n\nThe trigger condition: May be as broad or as specific as the caster wishes, and may include conditions on objects in the enchanted area being touched or on the presence of creatures in the area. It may only take visual appearances into account (e.g. it cannot discern the alignment, class, level, etc. of creatures who pass through)."
+  },
+  {
+    "name": "True Seeing",
+    "range": "The caster or a creature touched",
+    "school": "divination",
+    "castTime": "1 Round",
+    "duration": "1 Round per level",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "",
+    "category": "Detection",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The subject sees all things within 60’ as they truly are. \n\n▶ Secret doors: Are revealed. \n\n▶ Invisibility: Invisible objects and creatures are perceived. \n\n▶ Illusions: Are seen through. \n\n▶ Enchantments: Enchanted objects and creatures are made apparent."
+  },
+  {
+    "name": "Vision",
+    "range": "The caster",
+    "school": "divination",
+    "castTime": "",
+    "duration": "1 Turn",
+    "level": {
+      "Illusionist": 6
+    },
+    "components": "a valuable sacrifice",
+    "category": "Utility",
+    "attackSave": "",
+    "system": "OSE",
+    "book": "Advanced Fantasy Player's Tome",
+    "effect": "The caster calls upon a supernatural power, asking to be sent a vision in answer to a question which vexes them. \n\n▶ The power to be called upon: May be selected by the caster. \n\n▶ Sacrifice: In order to supplicate the power being contacted, the caster must sacrifice something either valuable to themselves or valuable to the supernatural power. More valuable sacrifices increase the chance of the caster’s question being answered (see below). \n\nThe response of the power: Is determined by rolling 2d6: \n\n▶ 2–6: The power is angered. No vision is sent. Instead, the caster is placed under a powerful enchantment forcing them to perform some quest for the power. \n\n▶ 7–9: A minor vision is sent. It may not be directly related to the caster’s question. \n\n▶ 10 or higher: A vision that answers the caster’s question is sent. Value of sacrifice: The 2d6 roll is modified by the value of the sacrifice (as judged by the referee): \n\n▶ Very precious: +1 \n\n▶ Extremely precious: +2 \n\n▶ Priceless: +3"
+  }
+]
